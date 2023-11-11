@@ -77,6 +77,13 @@ article section{
     padding: 10px;
 
 }
+article section a{
+    color: var(--cor01);
+    font-weight: bolder;
+}
+article section a:hover{
+    color: var(--cor04);
+}
 
 
 footer p {
