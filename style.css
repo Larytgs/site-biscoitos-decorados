@@ -19,8 +19,9 @@ body{
     text-align: center;
 }
 
-
 header h1{
+    font-size: 3em;
+    text-shadow: 3px 1px 0px rgba(0, 0, 0, 0.356);
     margin: 10px;
     padding: 10px;
 }
@@ -75,13 +76,17 @@ article section{
     background-color: var(--cor02);
     margin: 10px;
     padding: 10px;
+    min-width: 300px;
+    max-width: 1000px;
 
 }
 article section a{
     color: var(--cor01);
-    font-weight: bolder;
 }
 article section a:hover{
+    color: var(--cor04);
+}
+#destaque{
     color: var(--cor04);
 }
 
