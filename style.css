@@ -8,8 +8,9 @@
 :root{
     --cor00: #ffffff;
     --cor01: #000000;
-    --cor02: #bd59b8b7;
-    --cor03: #852880;
+    --cor02: #ff7bf896;
+    --cor03: #dd52d6;
+    --cor04: #852880;
 
 }
 
@@ -23,15 +24,18 @@ header h2 a{
     color: var(--cor01);
 }
 header h2 a:hover{
-    color: var(--cor03);
+    color: var(--cor04);
 }
 
 nav{
+
+    background-color: var(--cor03);
     border: 2px solid black;
     border-radius: 15px;
     margin: 20px 30px;
     padding: 5px;
     width: 300px;
+    vertical-align: baseline;
 }
 nav a {
     font-size: larger;
@@ -41,7 +45,7 @@ nav a {
     
 }
 nav a:hover{
-    color: var(--cor03);
+    color: var(--cor04);
     text-decoration: underline;
 }
 
