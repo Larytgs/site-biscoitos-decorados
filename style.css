@@ -31,10 +31,10 @@ nav{
     background-color: var(--cor03);
     border: 2px solid black;
     border-radius: 15px;
+    box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.459);
     margin: 20px 30px;
     padding: 5px;
     width: 300px;
-    vertical-align: baseline;
 }
 nav a {
     font-size: larger;
@@ -60,6 +60,27 @@ main{
     
 }
 
-foot{
+
+article section{
     background-color: var(--cor02);
+    margin: 10px;
+    padding: 10px;
+
+}
+
+
+footer p {
+    background-color: var(--cor03);
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 0px;
+    padding: 8px;
+    border: 1px solid var(--cor04);
+    color: var(--cor00);
+}
+footer p a{
+    color: var(--cor00);    
+}
+footer p a:hover{
+    color: var(--cor04);
 }
