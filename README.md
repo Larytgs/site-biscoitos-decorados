@@ -8,12 +8,24 @@ Catalogo
 Contato no whatswapp
  
 O QUE SÃO BISCOITOS DECORADOS?
-Os biscoitos decorados são os tradicionais biscoitos amanteigados com formatos divertidos e desenhos feitos com pasta americana ou glacê real. A pasta americana é uma escolha mais prática, pois já vem pronta, entretanto pode roubar o verdadeiro sabor do biscoito.
+Os biscoitos decorados são os tradicionais biscoitos amanteigados com formatos divertidos e desenhos feitos com glacê real. 
 
-Já o glacê real é a alternativa mais trabalhosa – é preciso comprar o glacê em pó, prepará-lo com água na batedeira e então dar cor com corantes comestíveis, a partir daí, você pode colocá-lo em sacos de confeiteiro e utilizar o bico que mais combina com o desenho que quer fazer.
+[fotos]
+O formato dos biscoitos é feito com biscoiteiras de ferro, da Biscoitos Heloise. Mas tambem com cortadores especiais. 
 
 [fotos]
 
-O formato dos biscoitos é feito com cortadores especiais que são facilmente encontrados em lojas de confeitaria. Dessa forma, há uma infinidade de opções em formas: animais, estrelas, corações, letras, formas geométricas… Basta escolher aquele que se adequa melhor à proposta da festa em questão.
+Informações iniciais
 
-[fotos]
+Pedido mínimo de 06 biscoitos;
+Retiradas : Quintas e Sextas: das 12h às 19h30 e Sábados; das 09h as 15h;
+Os biscoitos são de baunilha com cobertura de glacê real;
+Quanto ao tamanho normalmente eles tem em média 9cm cada;
+Temporariamente, não estaremos trabalhando com formatos especiais, somente molduras/geométricos;
+Caso eu possua algum cortador no formato do tema, poderei utiliza-lo na composição do kit;
+São embaladinhos um a um, em saquinho transparente e fita de cetim combinando;
+Os pedidos devem ser feitos com antecedência e conforme a disponibilidade na agenda;
+Trabalho somente com retiradas (R. Dr. Guedes Coelho nº 94 apto 31 - Encruzilhada / Santos-SP);
+Pode-se também utilizar serviços de retiradas (como uber flash), a solicitação no dia fica por conta do cliente;
+Não envio por correio (por serem delicados, acabam quebrando no caminho);
+Os biscoitos tem validade de 30 dias.
