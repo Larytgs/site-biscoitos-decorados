@@ -1,2 +1,29 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor00: #ffffff;
+    --cor01: #000000;
+    --cor02: #bd59b86c;
+    --cor03: rgba(250, 128, 244, 0.377);
+
+}
+
+body{
+    background-color: var(--cor02);
+    text-align: center;
+}
+main{
+    background-color: var(--cor03);
+    margin: 0px, 50px;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    height: 150%;
+    border-radius: 10px;
+}
