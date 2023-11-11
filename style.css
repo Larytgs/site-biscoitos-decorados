@@ -17,8 +17,6 @@
 body{
     background-color: var(--cor02); /*colocar imagem fixa*/
     text-align: center;
-    min-width: 300px;
-    max-width: 1000px;
 }
 
 
@@ -64,11 +62,12 @@ main{
     background-color: var(--cor00);
     margin: 10px, 50px;
     padding: 10px;
-    min-width: 300px;
-    max-width: 1000px;
+    
     margin: auto;
     height: 150%;
     border-radius: 10px;
+    min-width: 300px;
+    max-width: 1000px;
 }
 
 
