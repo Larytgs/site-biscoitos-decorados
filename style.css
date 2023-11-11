@@ -8,8 +8,8 @@
 :root{
     --cor00: #ffffff;
     --cor01: #000000;
-    --cor02: #bd59b86c;
-    --cor03: rgba(250, 128, 244, 0.377);
+    --cor02: #bd59b8b7;
+    --cor03: #852880;
 
 }
 
@@ -17,13 +17,46 @@ body{
     background-color: var(--cor02);
     text-align: center;
 }
+
+header h2 a{
+    text-decoration: none;
+    color: var(--cor01);
+}
+header h2 a:hover{
+    color: var(--cor03);
+}
+
+nav{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 20px 30px;
+    padding: 5px;
+    width: 300px;
+}
+nav a {
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+    color: var(--cor00);
+    
+}
+nav a:hover{
+    color: var(--cor03);
+    text-decoration: underline;
+}
+
 main{
-    background-color: var(--cor03);
-    margin: 0px, 50px;
+    background-color: var(--cor00);
+    margin: 10px, 50px;
     padding: 10px;
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
     height: 150%;
     border-radius: 10px;
+    
+}
+
+foot{
+    background-color: var(--cor02);
 }
