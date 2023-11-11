@@ -8,17 +8,22 @@
 :root{
     --cor00: #ffffff;
     --cor01: #000000;
-    --cor02: #ff7bf896;
-    --cor03: #dd52d6;
+    --cor02: #ff7bf862;
+    --cor03: #dd52d6c0;
     --cor04: #852880;
 
 }
 
 body{
-    background-color: var(--cor02);
+    background-color: var(--cor02); /*colocar imagem fixa*/
     text-align: center;
 }
 
+
+header h1{
+    margin: 10px;
+    padding: 10px;
+}
 header h2 a{
     text-decoration: none;
     color: var(--cor01);
@@ -27,14 +32,15 @@ header h2 a:hover{
     color: var(--cor04);
 }
 
-nav{
+
+nav{ /*coloquei <br> para separar os botoes*/
     background-color: var(--cor03);
     border: 2px solid black;
     border-radius: 15px;
     box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.459);
-    margin: 20px 30px;
-    padding: 5px;
-    width: 300px;
+    margin: auto;
+    padding: 10px;
+    width: 350px;
 }
 nav a {
     font-size: larger;
@@ -42,11 +48,13 @@ nav a {
     text-decoration: none;
     color: var(--cor00);
     text-align: center;
+    margin-bottom: 10px;
 }
 nav a:hover{
     color: var(--cor04);
     text-decoration: underline;
 }
+
 
 main{
     background-color: var(--cor00);
@@ -57,7 +65,6 @@ main{
     margin: auto;
     height: 150%;
     border-radius: 10px;
-    
 }
 
 
