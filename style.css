@@ -17,6 +17,8 @@
 body{
     background-color: var(--cor02); /*colocar imagem fixa*/
     text-align: center;
+    min-width: 300px;
+    max-width: 1000px;
 }
 
 
@@ -37,9 +39,12 @@ nav{ /*coloquei <br> para separar os botoes*/
     border: 2px solid black;
     border-radius: 15px;
     box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.459);
+    
     margin: auto;
     padding: 10px;
     width: 350px;
+    min-width: 300px;
+    max-width: 1000px;
 }
 nav a {
     font-size: larger;
