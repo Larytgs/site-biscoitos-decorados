@@ -25,7 +25,6 @@ header h1{
     padding: 10px;
 }
 header h2 a{
-    text-decoration: none;
     color: var(--cor01);
 }
 header h2 a:hover{
