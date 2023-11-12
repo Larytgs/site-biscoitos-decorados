@@ -1,26 +1,36 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "destaque";
+    src: url(fontes/Handmade.otf);
+}
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
 :root{
-    --cor00: #ffffff;
+    --cor00: #FFF8EB;
     --cor01: #000000;
     --cor02: #ff7bf862;
-    --cor03: #dd52d6c0;
+    --cor03: #C85E8B;
     --cor04: #852880;
 
+    --font01: "destaque";
 }
 
 body{
     background-color: var(--cor02); /*colocar imagem fixa*/
     text-align: center;
 }
+body h2{
+    font-family: var(--font01);
+    font-weight: 300;
+}
 
 header h1{
-    font-size: 3em;
+    font-size: 4em;
     text-shadow: 3px 1px 0px rgba(0, 0, 0, 0.356);
     margin: 10px;
     padding: 10px;
@@ -73,6 +83,14 @@ main{
     border-radius: 10px;
     min-width: 300px;
     max-width: 1000px;
+}
+main h1{
+    font-family: var(--font01);
+    font-size: 2em;
+    font-size: 3.4vw; /*deixar a letra grande ou pqna, dependendo do navegador*/
+}
+main p{
+    font-size: 1.2em;
 }
 
 
