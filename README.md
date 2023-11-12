@@ -10,6 +10,7 @@ Contato no whatswapp
  
 O QUE SÃO BISCOITOS DECORADOS?
 Os biscoitos decorados são os tradicionais biscoitos amanteigados com formatos divertidos e desenhos feitos com glacê real. 
+São biscoitos que possuem uma massa caseira amanteigada e macia (aquele biscoito de vó)e , depois de assados, recebem uma cobertura.
 
 [fotos]
 <picture>
