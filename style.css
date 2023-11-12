@@ -36,8 +36,8 @@ body h2{
 
 header{
     /*background-color: var(--cor03);*/
-    background: url(imagens/imagemdefundonatalrosa2.jpeg) center no-repeat fixed;
-    background-size: cover;
+    background: url(imagens/imagemdefundonatalrosa.jpg) center no-repeat fixed;
+    background-size: contain;
     width: 100%;
 }
 header h1{
@@ -45,6 +45,10 @@ header h1{
     font-family: var(--font01);
     font-weight: 800;
     font-size: 2.5em;
+
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
 }
 header p img{
     margin-top: 55px;
@@ -124,8 +128,7 @@ footer p {
     margin-top: 5px;
     margin-right: 0px;
     padding: 8px;
-    border: 2px solid var(--cor04);
-    color: var(--cor00);
+    color: var(--cor01);
 }
 footer p a{
     color: var(--cor00);    
