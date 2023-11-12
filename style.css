@@ -58,7 +58,7 @@ nav{ /*coloquei <br> para separar os botoes*/
     background-color: var(--cor03);
     border: 2px solid black;
     border-radius: 15px;
-    box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.459);
+    box-shadow: 2px 3px 1px var(--cor04);
     
     margin: auto;
     padding: 10px;
