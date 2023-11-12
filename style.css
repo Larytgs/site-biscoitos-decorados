@@ -17,6 +17,7 @@
     --cor02: #ff7bf862;
     --cor03: #c85e8ad3;
     --cor04: #852880;
+    --cor05: #FFDDFE;
 
     --font01: "destaque1";
 }
@@ -27,12 +28,7 @@ body{
     background-size: cover;
     text-align: center;
 }
-body h2{
-    font-family: var(--font01);
-    font-weight: 300;
-    font-size: 2em;
-    
-}
+
 
 header{
     /*background-color: var(--cor03);*/
@@ -78,7 +74,9 @@ main h1{
 main h2{
     font-family: var(--font01);
     text-align: left;
-    line-height: 1.5em;
+    line-height: 1.2em;
+    font-weight: 800;
+    font-size: 2em;
 }
 main p{
     font-size: 1.2em;
@@ -95,35 +93,42 @@ article section{
     padding: 10px;
     min-width: 300px;
     max-width: 1000px;
-
+    border-radius: 10px;
 }
-a{
-    text-decoration: none;
-    text-decoration: underline;
-    color: var(--cor01);
-}
-a:hover{
-    color: var(--cor04);
-    text-decoration: underline;
-    font-weight: 600;
-}
-#destaque{
-    color: var(--cor04);
-}
-.imagem{
-    background-color: var(--cor02);
-}
-#img1{
-    background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
-    background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
-}
-
-
 article section ul{
     font-size: 1.1em;
     text-align: left;
     list-style-position: inside;
     list-style-type: '\2714\00a0\00a0';
+}
+
+#destaque{
+    color: var(--cor04);
+}
+.imagem{
+    background-color: var(--cor05);
+}
+#img1{
+    background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
+    background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
+}
+#color{
+    color: #852880;
+    text-align: left;
+    line-height: 1.8em;
+}
+
+
+aside a{
+
+        text-decoration: none;
+        text-decoration: underline;
+        color: var(--cor01);
+}
+aside a:hover{
+        color: var(--cor04);
+        text-decoration: underline;
+        font-weight: 600;
 }
 
 

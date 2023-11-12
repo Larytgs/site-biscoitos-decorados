@@ -35,9 +35,33 @@ Informações iniciais
 -Pode-se também utilizar serviços de retiradas (como uber flash), a solicitação no dia fica por conta do cliente;
 -Não envio por correio (por serem delicados, acabam quebrando no caminho).
 
+Biscoitos Simples - 6$
+
+- Decorado com uma camada única de glacê.
+- Pode ter respingos dourados ou prateados.
+    
+Biscoitos Elaborado - 8$
+    
+- Decorado com mais de uma camada de glacê.
+- Diversos acabamentos como textura, relevo, adornos e escritas simples.
+          
+            
+Kit com 2 unidades
+            
+Kit com 4 unidades
+            
+Kit com 6 unidades
+            
+
+
+E os modelinhos? Posso ver antes? Serão todos diferentes?
+
+Não envio prévio nem rascunhos . O processo de criação é feito próximo à produção, e muitas vezes direto no biscoito. Por isso é muito importante as referências! É com elas que conseguirei unir o meu estilo combinando com a sua festa!
+
+Quanto aos modelos do conjunto, me esforço para usar minha criatividade e fazê-los um diferente do outro, mas tudo depende do tema (alguns não temos muita referência, elementos para se trabalhar ou outros fatores), por isto também pedidos com mais de 06 Os biscoitos podem ocorrer de alguma repetição.
+
 
 O formato dos biscoitos é feito com biscoiteiras de ferro, da Biscoitos Heloise. Mas tambem com cortadores especiais. 
 
 [fotos]
 
-link para compartilhamento tambem fazer
