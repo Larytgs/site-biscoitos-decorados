@@ -105,7 +105,7 @@ a{
 a:hover{
     color: var(--cor04);
     text-decoration: underline;
-    font-weight: 700;
+    font-weight: 600;
 }
 #destaque{
     color: var(--cor04);
