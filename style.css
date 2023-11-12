@@ -73,6 +73,9 @@ nav a {
     color: var(--cor00);
     text-align: center;
     margin-bottom: 10px;
+
+    min-width: 300px;
+    max-width: 1000px;
 }
 nav a:hover{
     color: var(--cor04);
