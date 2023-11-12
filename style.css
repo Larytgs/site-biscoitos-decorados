@@ -35,9 +35,13 @@ body h2{
 }
 
 header{
-    background-color: var(--cor03);
+    /*background-color: var(--cor03);*/
+    background: url(imagens/imagemdefundonatalrosa2.jpeg) center no-repeat fixed;
+    background-size: cover;
+    width: 100%;
 }
 header h1{
+    background-color: var(--cor03);
     font-family: var(--font01);
     font-weight: 800;
     font-size: 2.5em;
@@ -56,7 +60,6 @@ main{
     padding: 10px;
     
     margin: auto;
-    height: 150%;
     border-radius: 10px;
     min-width: 300px;
     max-width: 1000px;
