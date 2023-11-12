@@ -19,11 +19,12 @@
     --cor04: #852880;
 
     --font01: "destaque1";
-    --font02: "natal";
 }
 
 body{
-    background-color: var(--cor02); /*colocar imagem fixa*/
+    height: 98vh; /*altura do fundo do body tem que colocar p funcionar*/
+    background: url(imagens/imagemdefundorosa.jpg) center repeat fixed; 
+    background-size: cover;
     text-align: center;
 }
 body h2{
@@ -33,53 +34,19 @@ body h2{
     
 }
 
-/*header h1{
-    font-size: 4em;
-    text-shadow: 3px 1px 0px rgba(0, 0, 0, 0.356);
-    margin: 10px;
-    padding: 10px;
-}*/
-header h2 a{
-    color: var(--cor01);
-    line-height: 1.7em;
+header{
+    background-color: var(--cor03);
 }
-header h2 a:hover{
-    color: var(--cor04);
+header h1{
+    font-family: var(--font01);
+    font-weight: 800;
+    font-size: 2.5em;
 }
 header p img{
     margin-top: 55px;
     margin-bottom: 20px;
     max-width: 150px;
     max-height: 150px;
-}
-
-
-nav{ /*coloquei <br> para separar os botoes*/
-    background-color: var(--cor03);
-    border: 2px solid black;
-    border-radius: 15px;
-    box-shadow: 2px 3px 1px var(--cor04);
-    
-    margin: auto;
-    padding: 15px;
-    width: 330px;
-    min-width: 300px;
-    max-width: 1000px;
-}
-nav a {
-    font-size: larger;
-    font-weight: bolder;
-    text-decoration: none;
-    color: var(--cor00);
-    text-align: center;
-    margin-bottom: 10px;
-
-    min-width: 200px;
-    max-width: 900px;
-}
-nav a:hover{
-    color: var(--cor04);
-    text-decoration: underline;
 }
 
 
@@ -96,8 +63,8 @@ main{
 }
 main h1{
     font-family: var(--font01);
-    font-weight: 800;
-    font-size: 2.5em;
+    font-weight: 700;
+    font-size: 2em;
     /*font-size: 3.4vw; deixar a letra grande ou pqna, dependendo do navegador*/
 }
 main h2{
@@ -131,6 +98,14 @@ article section a:hover{
 #destaque{
     color: var(--cor04);
 }
+.imagem{
+    background-color: var(--cor02);
+}
+#img1{
+    background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
+    background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
+}
+
 
 article section ul{
     font-size: 1.1em;
@@ -146,7 +121,7 @@ footer p {
     margin-top: 5px;
     margin-right: 0px;
     padding: 8px;
-    border: 1px solid var(--cor04);
+    border: 2px solid var(--cor04);
     color: var(--cor00);
 }
 footer p a{
