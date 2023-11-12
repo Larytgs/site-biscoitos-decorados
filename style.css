@@ -31,6 +31,9 @@ header h2 a{
 header h2 a:hover{
     color: var(--cor04);
 }
+header p img{
+    margin-top: 55px;
+}
 
 
 nav{ /*coloquei <br> para separar os botoes*/
