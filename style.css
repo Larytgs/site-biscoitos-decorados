@@ -97,11 +97,14 @@ article section{
     max-width: 1000px;
 
 }
-article section a{
+article section > p > a{
+    text-decoration: none;
+    text-decoration: underline;
     color: var(--cor01);
 }
 article section a:hover{
     color: var(--cor04);
+    text-decoration: underline;
 }
 #destaque{
     color: var(--cor04);
