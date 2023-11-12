@@ -1,5 +1,6 @@
 # site-biscoitos-decorados
 
+[logo] tem que deixar mais focada
 Biscoitos Decorados
 @biscoitos.gisa
 
@@ -29,3 +30,5 @@ Trabalho somente com retiradas (R. Dr. Guedes Coelho nº 94 apto 31 - Encruzilha
 Pode-se também utilizar serviços de retiradas (como uber flash), a solicitação no dia fica por conta do cliente;
 Não envio por correio (por serem delicados, acabam quebrando no caminho);
 Os biscoitos tem validade de 30 dias.
+
+link para compartilhamento tambem fazer
