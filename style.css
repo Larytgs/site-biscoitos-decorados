@@ -49,9 +49,8 @@ header h2 a:hover{
 header p img{
     margin-top: 55px;
     margin-bottom: 20px;
-    max-width:150px;
-    max-height:150px;
-    
+    max-width: 150px;
+    max-height: 150px;
 }
 
 
@@ -63,7 +62,7 @@ nav{ /*coloquei <br> para separar os botoes*/
     
     margin: auto;
     padding: 10px;
-    width: 350px;
+    width: 340px;
     min-width: 300px;
     max-width: 1000px;
 }
