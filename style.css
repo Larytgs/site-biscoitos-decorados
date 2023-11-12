@@ -27,6 +27,7 @@ header h1{
 }
 header h2 a{
     color: var(--cor01);
+    line-height: 1.7em;
 }
 header h2 a:hover{
     color: var(--cor04);
