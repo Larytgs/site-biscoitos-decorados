@@ -27,6 +27,8 @@ body{
 body h2{
     font-family: var(--font01);
     font-weight: 300;
+    font-size: 2em;
+    
 }
 
 header h1{
