@@ -31,12 +31,12 @@ body h2{
     
 }
 
-header h1{
+/*header h1{
     font-size: 4em;
     text-shadow: 3px 1px 0px rgba(0, 0, 0, 0.356);
     margin: 10px;
     padding: 10px;
-}
+}*/
 header h2 a{
     color: var(--cor01);
     line-height: 1.7em;
@@ -91,8 +91,17 @@ main h1{
     font-size: 2em;
     font-size: 3.4vw; /*deixar a letra grande ou pqna, dependendo do navegador*/
 }
+main h2{
+    font-family: var(--font01);
+    text-align: left;
+    line-height: 1.5em;
+}
 main p{
     font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+#espaçodelinha{
+    line-height: 1.7em;
 }
 
 
@@ -112,6 +121,13 @@ article section a:hover{
 }
 #destaque{
     color: var(--cor04);
+}
+
+article section ul{
+    font-size: 1.1em;
+    text-align: left;
+    list-style-position: inside;
+    list-style-type: '\2714\00a0\00a0';
 }
 
 
