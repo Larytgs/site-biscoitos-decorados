@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: "destaque";
-    src: url(fontes/Handmade.otf);
+    font-family: "destaque1";
+    src: url(fontes/Handmade.otf) format(opentype);
 }
+
 
 * {
     margin: 0px;
@@ -17,7 +18,8 @@
     --cor03: #C85E8B;
     --cor04: #852880;
 
-    --font01: "destaque";
+    --font01: "destaque1";
+    --font02: "natal";
 }
 
 body{
@@ -88,7 +90,8 @@ main{
 }
 main h1{
     font-family: var(--font01);
-    font-size: 2em;
+    font-weight: 800;
+    font-size: 1.2em;
     font-size: 3.4vw; /*deixar a letra grande ou pqna, dependendo do navegador*/
 }
 main h2{
