@@ -23,7 +23,7 @@
 
 body{
     height: 98vh; /*altura do fundo do body tem que colocar p funcionar*/
-    background: url(imagens/imagemdefundorosa.jpg) center repeat fixed; 
+    background: url(imagens/imagemdefundoalce.jpg) center repeat fixed; 
     background-size: cover;
     text-align: center;
 }
