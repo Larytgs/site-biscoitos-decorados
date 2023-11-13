@@ -37,8 +37,8 @@ header{
     width: 100%;
 }
 header h1{
-    background-color: #85288091;
-    color: var(--cor00);
+    background-color: #8528803b;
+    color: var(--cor04);
     text-align: center;
     font-family: var(--font01);
     font-weight: 800;
