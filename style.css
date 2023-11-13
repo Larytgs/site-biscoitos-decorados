@@ -109,7 +109,7 @@ article section ul{
     color: var(--cor04);
 }
 .imagem{
-    background-color: var(--cor05);
+    background-color: #ffddfe98;
 }
 #img1{
     background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
