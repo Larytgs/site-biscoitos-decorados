@@ -36,8 +36,8 @@ header{
     background-size: contain;
     width: 100%;
 }
-header h1{
-    background-color: #8528803b;
+#titulo{
+    background-color: var(--cor05);
     color: var(--cor04);
     text-align: center;
     font-family: var(--font01);
