@@ -102,11 +102,10 @@ article section{
     max-width: 1000px;
     border-radius: 10px;
 }
-article section ul{
+ul{
     font-size: 1.1em;
     text-align: left;
     list-style-position: inside;
-    list-style-type: '\2714\00a0\00a0';
 }
 
 
