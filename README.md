@@ -44,14 +44,21 @@ Biscoitos Elaborado - 8$
     
 - Decorado com mais de uma camada de glacê.
 - Diversos acabamentos como textura, relevo, adornos e escritas simples.
-          
-            
+
+
 Kit com 2 unidades
             
 Kit com 4 unidades
             
 Kit com 6 unidades
             
+
+Embalagens opcionais:
+
+- Temos opção de pacote transparente e laço
+[imagem]
+- Temos opçao de caixas com visor e laço
+[imagem]
 
 
 E os modelinhos? Posso ver antes? Serão todos diferentes?

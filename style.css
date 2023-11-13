@@ -112,8 +112,8 @@ article section ul{
     background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
     background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
 }
-#color{
-    color: #852880;
+h1, h2.color{
+    color: var(--cor04);
     text-align: left;
     line-height: 1.8em;
 }
