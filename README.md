@@ -82,8 +82,14 @@ Na caixa com visor:
 
 
 E os modelinhos? Posso ver antes? Serão todos diferentes?
-Quanto aos modelos do conjunto, me esforço para usar minha criatividade e fazê-los um diferente do outro, mas tudo depende do tema (alguns não temos muita referência, elementos para se trabalhar ou outros fatores), por isto também pedidos com mais de 06 Os biscoitos podem ocorrer de alguma repetição.
+
 Não envio prévio nem rascunhos. O processo de criação é feito próximo à produção, e muitas vezes direto no biscoito. Por isso é muito importante as referências! É com elas que conseguirei unir o meu estilo combinando com a sua festa!
+
+Quanto aos modelos do conjunto, me esforço para usar minha criatividade e fazê-los um diferente do outro, mas tudo depende do tema (alguns não temos muita referência, elementos para se trabalhar ou outros fatores), por isto também pedidos com mais de 06; Os biscoitos podem ocorrer de alguma repetição.
+
+Sem pré-envios ou rascunhos. O processo de criação é próximo da produção e geralmente é feito diretamente no biscoito. É por isso que as referências são tão importantes! 
+
+Quanto aos modelos do conjunto, procuro usar minha criatividade para diferenciá-los, mas tudo depende do tema (alguns não temos muita referência, elementos para trabalhar ou outros fatores), ou seja, por que são mais de 06. Pedidos também poderão ser duplicados.
 
 
 
