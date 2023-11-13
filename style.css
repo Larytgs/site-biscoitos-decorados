@@ -80,6 +80,9 @@ main h2{
     font-weight: 800;
     font-size: 2em;
 }
+main h3{
+    line-height: 1.3em;
+}
 main p{
     font-size: 1.2em;
     line-height: 1.5em;
@@ -105,6 +108,7 @@ article section ul{
     list-style-position: inside;
     list-style-type: '\2714\00a0\00a0';
 }
+
 
 #destaque{
     color: var(--cor04);
