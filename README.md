@@ -87,6 +87,10 @@ Na caixa com visor:
 - elaborado - 56$
 
 
+Biscoitos no Palito
+Os Biscoitos podem ser no palito, ideais para colocar no bolo, em cachepot e vasos na decoração, estes possuem um acréscimo de R$3,00 no valor unitário.
+
+
 E os modelinhos? Posso ver antes? Serão todos diferentes?
 
 Não envio prévio nem rascunhos . O processo de criação é feito próximo à produção, e muitas vezes direto no biscoito. Por isso é muito importante as referências! É com elas que conseguirei unir o meu estilo combinando com a sua festa!
