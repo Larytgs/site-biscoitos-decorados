@@ -35,30 +35,55 @@ Informações iniciais
 -Pode-se também utilizar serviços de retiradas (como uber flash), a solicitação no dia fica por conta do cliente;
 -Não envio por correio (por serem delicados, acabam quebrando no caminho).
 
-Biscoitos Simples - 6$
+Biscoitos Simples - 6$     [colocar foto na lateral]
 
 - Decorado com uma camada única de glacê.
 - Pode ter respingos dourados ou prateados.
     
-Biscoitos Elaborado - 8$
+Biscoitos Elaborado - 8$    [colocar foto na lateral]
     
 - Decorado com mais de uma camada de glacê.
 - Diversos acabamentos como textura, relevo, adornos e escritas simples.
 
 
-Kit com 2 unidades
-            
-Kit com 4 unidades
-            
-Kit com 6 unidades
-            
-
 Embalagens opcionais:
 
-- Temos opção de pacote transparente e laço
+- Temos opção de pacote transparente e laço - acrescimo de 5$
 [imagem]
-- Temos opçao de caixas com visor e laço
+- Temos opçao de caixas com visor e laço - acrescimo de 8$
 [imagem]
+
+
+Kit com 2 unidades      [foto]
+
+No pacote transparente:
+- simples - 17$
+- elaborado - 21$
+
+Na caixa com visor:
+- simples - 20$
+- elaborado - 24$
+            
+
+Kit com 4 unidades      [foto]
+
+No pacote transparente:
+- simples - 29$
+- elaborado - 37$
+
+Na caixa com visor:
+- simples - 32$
+- elaborado - 40$
+            
+Kit com 6 unidades     [foto]
+
+No pacote transparente:
+- simples - 41$
+- elaborado - 53$
+
+Na caixa com visor:
+- simples - 44$
+- elaborado - 56$
 
 
 E os modelinhos? Posso ver antes? Serão todos diferentes?
