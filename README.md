@@ -17,8 +17,6 @@ São biscoitos que possuem uma massa caseira amanteigada e macia (aquele biscoit
 </picture>
 
 
-Temos embalagens em saquinhos com fitas e em caixas de 2 e 4 bicoitos.
-[fotos]
 
 Informações iniciais
 
@@ -36,6 +34,8 @@ Informações iniciais
 -Pode-se também utilizar serviços de retiradas (como uber flash), a solicitação no dia fica por conta do cliente;
 -Não envio por correio (por serem delicados, acabam quebrando no caminho).
 
+
+
 Biscoitos Simples - 6$     [colocar foto na lateral]
 
 - Decorado com uma camada única de glacê.
@@ -47,12 +47,14 @@ Biscoitos Elaborado - 8$    [colocar foto na lateral]
 - Diversos acabamentos como textura, relevo, adornos e escritas simples.
 
 
+
 Embalagens opcionais:
 
 - Temos opção de pacote transparente e laço - acrescimo de 5$
 [imagem]
 - Temos opçao de caixas com visor e laço - acrescimo de 8$
 [imagem]
+
 
 
 Kit com 2 unidades      [foto]
@@ -87,8 +89,22 @@ Na caixa com visor:
 - elaborado - 56$
 
 
+
 Biscoitos no Palito
 Os Biscoitos podem ser no palito, ideais para colocar no bolo, em cachepot e vasos na decoração, estes possuem um acréscimo de R$3,00 no valor unitário.
+
+
+
+Biscoito de Colorir
+Sucesso entre a criançada! O kit de biscoitos de colorir são ótimos para presentear, ser uma lembrancinha de festa e também para um escritório com a criança durante o aniversário! Todos os kits vão na caixinha e acompanham biscoito godê e um pincel para a brincadeira! Os desenhos são personalizados de acordo com o tema.
+
+R$ 23,00
+
+(pedido mínimo de 10 kits)
+O kit de colorir é formado por: 01 biscoito com o desenho, 01 biscoito godê com as cores, 01 pincel, instruções. O kit vai em caixinha kraf com tampa transparente e palha colorida no fundo (núcleos conforme disponibilidade)
+
+Os desenhos serão selecionados para cada 05 unidades. Por exemplo: 10 unidades - 02 desenhos, 15 unidades - 3 desenhos...
+
 
 
 E os modelinhos? Posso ver antes? Serão todos diferentes?
