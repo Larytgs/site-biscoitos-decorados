@@ -82,6 +82,7 @@ main h2{
 }
 main p{
     font-size: 1.2em;
+    line-height: 1.5em;
     font-family: 'Times New Roman', Times, serif;
 }
 #espaçodelinha{
@@ -115,10 +116,23 @@ article section ul{
     background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
     background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
 }
-h1, h2.color{
+h1.color{
     color: var(--cor04);
     text-align: left;
     line-height: 1.8em;
+}
+h2.color{
+    color: var(--cor01);
+    text-align: left;
+    line-height: 1.8em;
+    font-weight: 100;
+    font-size: x-large;
+}
+h3{
+    text-align: left;
+    line-height: 1em;
+    font-size: 1em;
+    font-weight: 100;
 }
 
 

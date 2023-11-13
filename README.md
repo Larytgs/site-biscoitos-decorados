@@ -36,63 +36,60 @@ Informações iniciais
 
 
 
-Biscoitos Simples - 6$     [colocar foto na lateral]
+Biscoitos de Ninho:
+Ingredientes: farinha de trigo, manteiga, açúcar de confeiteiro, ovo, leite condensado, leite ninho.
+Biscoitos de Chocolate:
+Ingredientes: farinha de trigo, manteiga, açúcar de confeiteiro, ovo, mel, cacau 50%, canela em pó, noz moscada, cravo em pó.
 
-- Decorado com uma camada única de glacê.
-- Pode ter respingos dourados ou prateados.
-    
-Biscoitos Elaborado - 8$    [colocar foto na lateral]
-    
+Biscoitos Simples – 4,50$
+- Apenas com pó cintilante, e/ou iluminador prata ou dourado.
+
+Biscoitos Elaborado - 6$
 - Decorado com mais de uma camada de glacê.
-- Diversos acabamentos como textura, relevo, adornos e escritas simples.
-
-
+- Diversos acabamentos como textura, relevo e escritas simples.
 
 Embalagens opcionais:
-
-- Temos opção de pacote transparente e laço - acrescimo de 5$
-[imagem]
-- Temos opçao de caixas com visor e laço - acrescimo de 8$
-[imagem]
+- Temos opção de pacote transparente e laço - acréscimo de 1$ [FOTO]
+- Temos opção de caixas com visor e laço - acréscimo de 4$ [FOTO]
 
 
-
-Kit com 2 unidades      [foto]
-
+Kit com 2 unidades [FOTO]
 No pacote transparente:
-- simples - 17$
-- elaborado - 21$
+- Simples - 10$
+- Elaborado - 13$
 
 Na caixa com visor:
-- simples - 20$
-- elaborado - 24$
-            
+- Simples – 13$
+- Elaborado – 16$
 
-Kit com 4 unidades      [foto]
-
+Kit com 4 unidades [FOTO]
 No pacote transparente:
-- simples - 29$
-- elaborado - 37$
+- Simples - 19$
+- Elaborado - 25$
 
 Na caixa com visor:
-- simples - 32$
-- elaborado - 40$
-            
-Kit com 6 unidades     [foto]
+- Simples - 22$
+- Elaborado - 28$
 
+Kit com 6 unidades [FOTO]
 No pacote transparente:
-- simples - 41$
-- elaborado - 53$
+- Simples - 28$
+- Elaborado - 37$
 
 Na caixa com visor:
-- simples - 44$
-- elaborado - 56$
+- Simples - 31$
+- Elaborado - 40$
 
 
 
 Biscoitos no Palito
 Os Biscoitos podem ser no palito, ideais para colocar no bolo, em cachepot e vasos na decoração, estes possuem um acréscimo de R$3,00 no valor unitário.
 
+
+Giza, eu posso escolher ninho e chocolate no mesmo pedido?
+Boa pergunta! Claro que podemos fazer assim :) 
+Basta nos avisar certinho e com antecedência, para prepararmos com tempo e muito carinho.
+Lembrando que o de ninho é um valor e o de chocolate é outro ;)
 
 
 Biscoito de Colorir
