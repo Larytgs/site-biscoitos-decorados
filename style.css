@@ -92,7 +92,9 @@ main p{
     line-height: 1.7em;
     font-weight: 800;
 }
-
+#linha{
+    line-height: 2em;
+}
 
 article section{
     background-color: var(--cor02);
