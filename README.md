@@ -83,18 +83,14 @@ Na caixa com visor:
 
 E os modelinhos? Posso ver antes? Serão todos diferentes?
 
-Não envio prévio nem rascunhos. O processo de criação é feito próximo à produção, e muitas vezes direto no biscoito. Por isso é muito importante as referências! É com elas que conseguirei unir o meu estilo combinando com a sua festa!
-
-Quanto aos modelos do conjunto, me esforço para usar minha criatividade e fazê-los um diferente do outro, mas tudo depende do tema (alguns não temos muita referência, elementos para se trabalhar ou outros fatores), por isto também pedidos com mais de 06; Os biscoitos podem ocorrer de alguma repetição.
-
 Sem pré-envios ou rascunhos. O processo de criação é próximo da produção e geralmente é feito diretamente no biscoito. É por isso que as referências são tão importantes! 
 
 Quanto aos modelos do conjunto, procuro usar minha criatividade para diferenciá-los, mas tudo depende do tema (alguns não temos muita referência, elementos para trabalhar ou outros fatores), ou seja, por que são mais de 06. Pedidos também poderão ser duplicados.
 
 
 
-Biscoitos no Palito
-Os Biscoitos podem ser no palito, ideais para colocar no bolo, em cachepot e vasos na decoração, estes possuem um acréscimo de R$3,00 no valor unitário.
+        Biscoitos no Palito
+        Os Biscoitos podem ser no palito, ideais para colocar no bolo, em cachepot e vasos na decoração, estes possuem um acréscimo de R$3,00 no valor unitário.
 
 
 Giza, eu posso escolher ninho e chocolate no mesmo pedido?
