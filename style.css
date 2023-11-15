@@ -121,11 +121,6 @@ ul{
     background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
     background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
 }
-.pequena{
-    min-width: 350px;
-    display: block;
-
-}
 
 h1.color{
     color: var(--cor04);
