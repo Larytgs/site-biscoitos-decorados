@@ -122,8 +122,9 @@ ul{
     background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
 }
 .pequena{
-    max-width: 350px;
+    min-width: 350px;
     display: block;
+
 }
 
 h1.color{
