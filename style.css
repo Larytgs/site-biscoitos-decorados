@@ -169,3 +169,9 @@ footer p a{
 footer p a:hover{
     color: var(--cor04);
 }
+
+<picture>
+                  <source media="(max-width: 600px)" srcset="imagens/caixa300.jpg" type="image/jpg">
+                  <source media="(max-width: 700px)" srcset="imagens/caixa500.jpg" type="image/jpg">
+                  <img src="imagens/caixa600.jpg" alt="">
+               </picture>
