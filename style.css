@@ -164,7 +164,7 @@ footer p {
     color: var(--cor01);
 }
 footer p a{
-    color: var(--cor00);    
+    color: var(--cor01);    
 }
 footer p a:hover{
     color: var(--cor04);
