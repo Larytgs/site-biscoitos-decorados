@@ -122,9 +122,6 @@ ul{
     background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
     background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
 }
-#kit{
-    width: auto;
-}
 
 
 h1.color{
