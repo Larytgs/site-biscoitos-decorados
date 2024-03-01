@@ -18,14 +18,14 @@
     --cor03: #c85e8ad3;
     --cor04: #872982;
     --cor05: #FFDDFE;
-    --cor06: #ffddfeaf;
+    --cor06: #f59cf281;
 
     --font01: "destaque1";
 }
 
 body{
     height: 98vh; /*altura do fundo do body tem que colocar p funcionar*/
-    background-color: #f82a8041;
+    background-color: #ee5e9a27;
     background-size: cover;
     text-align: center;
 }
@@ -43,8 +43,9 @@ header{
     font-family: var(--font01);
     font-weight: 800;
     font-size: 2.2em;
+    line-height: 1em; /*espaçamento entre as linhas*/
 
-    margin: auto;
+    margin: auto;    
     padding: 11px;
     min-width: 300px;
     max-width: 1000px;
@@ -140,7 +141,7 @@ p.orçamento{
     font-family: var(--font01);
     font-weight: 100;
     font-size: 1.5em;
-
+    line-height: 1.1em; /*espaçamento entre as linhas*/
 }
 h3{
     text-align: left;
