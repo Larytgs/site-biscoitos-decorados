@@ -16,15 +16,16 @@
     --cor01: #000000;
     --cor02: #ff7bf862;
     --cor03: #c85e8ad3;
-    --cor04: rgb(135, 41, 130);
+    --cor04: #872982;
     --cor05: #FFDDFE;
+    --cor06: #ffddfeaf;
 
     --font01: "destaque1";
 }
 
 body{
     height: 98vh; /*altura do fundo do body tem que colocar p funcionar*/
-    background-color: #be3e735e;
+    background-color: #f82a8041;
     background-size: cover;
     text-align: center;
 }
@@ -37,7 +38,6 @@ header{
     width: 100%;
 }
 #titulo{
-    background-color: var(--cor05);
     color: var(--cor04);
     text-align: center;
     font-family: var(--font01);
@@ -45,7 +45,7 @@ header{
     font-size: 2.5em;
 
     margin: auto;
-    padding: 10px;
+    padding: 11px;
     min-width: 300px;
     max-width: 1000px;
 }
@@ -115,7 +115,7 @@ ul{
     color: var(--cor04);
 }
 .imagem{
-    background-color: #ffddfeaf;
+    background-color: var(--cor06);
 }
 #img1{
     background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
@@ -133,13 +133,13 @@ h2.color{
     text-align: left;
     line-height: 1.8em;
     font-weight: 100;
-    font-size: x-large;
+    font-size: 1.6em;
 }
 p.orçamento{
     color: var(--cor01);
     font-family: var(--font01);
     font-weight: 100;
-    font-size: x-large;
+    font-size: 1.5em;
 
 }
 h3{
