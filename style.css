@@ -122,10 +122,11 @@ ul{
     background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
     background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
 }
-#insta{
+#contatos{
     color: var(--cor05);
     background-color: var(--cor03);
     padding: 10px;
+    margin-right: 10px;
     font-family: var(--font01);
     font-size: larger;
     text-decoration: none;
@@ -133,7 +134,7 @@ ul{
     border-radius: 10px;
     box-shadow: -2px 2px 3px 3px rgba(0, 0, 0, 0.719);
 }
-#insta:hover{
+#contatos:hover{
     color: white;
     box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.719);
 }
@@ -151,12 +152,12 @@ h2.color{
     font-weight: 100;
     font-size: 1.6em;
 }
-p.orçamento{
+p.text{
     color: var(--cor01);
     font-family: var(--font01);
     font-weight: 100;
     font-size: 1.5em;
-    line-height: 1.1em; /*espaçamento entre as linhas*/
+    line-height: 1.1em; /*espaçamento entre as linhas*/   
 }
 h3{
     text-align: left;
