@@ -122,6 +122,7 @@ ul{
     background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
 }
 
+
 h1.color{
     color: var(--cor04);
     text-align: left;
@@ -133,6 +134,13 @@ h2.color{
     line-height: 1.8em;
     font-weight: 100;
     font-size: x-large;
+}
+p.orçamento{
+    color: var(--cor01);
+    font-family: var(--font01);
+    font-weight: 100;
+    font-size: x-large;
+
 }
 h3{
     text-align: left;
