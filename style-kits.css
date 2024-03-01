@@ -28,20 +28,36 @@ body{
     background-color: #ee5e9a27;
     background-size: cover;
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /*vai separar as partes do header do body e do footer*/
 }
-
-
 header{
     /*background-color: var(--cor03);*/
     background: url(imagens/imagemdefundonatalrosa.jpg) center no-repeat fixed;
     background-size: contain;
     width: 100%;
 }
-header p img{
-    margin-top: 55px;
-    margin-bottom: 20px;
-    max-width: 150px;
-    max-height: 150px;
+main{
+    background-color: var(--cor00);
+    margin: 10px, 50px;
+    padding: 10px;
+    
+    margin: auto;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+}
+main h1{
+    font-family: var(--font01);
+    font-weight: 800;
+    font-size: 2em;
+}
+main p{
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #titulo{
@@ -58,64 +74,6 @@ header p img{
     max-width: 1000px;
 }
 
-
-main{
-    background-color: var(--cor00);
-    margin: 10px, 50px;
-    padding: 10px;
-    
-    margin: auto;
-    border-radius: 10px;
-    min-width: 300px;
-    max-width: 1000px;
-}
-main h1{
-    font-family: var(--font01);
-    font-weight: 800;
-    font-size: 2em;
-}
-main h2{
-    font-family: var(--font01);
-    color: var(--cor04);
-    text-align: left;
-    line-height: 1.2em;
-    font-weight: 800;
-    font-size: 2em;
-}
-main h3{
-    line-height: 1.3em;
-}
-main p{
-    font-size: 1.2em;
-    line-height: 1.5em;
-    font-family: 'Times New Roman', Times, serif;
-}
-#espaçodelinha{
-    line-height: 1.7em;
-    font-weight: 800;
-}
-#linha{
-    line-height: 1.8em;
-}
-
-article section{
-    background-color: var(--cor02);
-    margin: 10px;
-    padding: 10px;
-    min-width: 300px;
-    max-width: 1000px;
-    border-radius: 10px;
-}
-ul{
-    font-size: 1.1em;
-    text-align: left;
-    list-style-position: inside;
-}
-
-
-#destaque{
-    color: var(--cor04);
-}
 .imagem{
     background-color: var(--cor06);
 }
@@ -123,23 +81,6 @@ ul{
     background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
     background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
 }
-#contatos{
-    color: var(--cor05);
-    background-color: var(--cor03);
-    padding: 10px;
-    margin-right: 10px;
-    font-family: var(--font01);
-    font-size: larger;
-    text-decoration: none;
-
-    border-radius: 10px;
-    box-shadow: -2px 2px 3px 3px rgba(0, 0, 0, 0.719);
-}
-#contatos:hover{
-    color: white;
-    box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.719);
-}
-
 
 h1.color{
     color: var(--cor04);
@@ -160,26 +101,6 @@ p.text{
     font-size: 1.5em;
     line-height: 1.1em; /*espaçamento entre as linhas*/   
 }
-h3{
-    text-align: left;
-    line-height: 1em;
-    font-size: 1.1em;
-    font-weight: 100;
-}
-
-
-aside a{
-
-        text-decoration: none;
-        text-decoration: underline;
-        color: var(--cor01);
-}
-aside a:hover{
-        color: var(--cor04);
-        text-decoration: underline;
-        font-weight: 600;
-}
-
 
 footer p {
     background-color: var(--cor03);
@@ -195,4 +116,3 @@ footer p a{
 footer p a:hover{
     color: var(--cor04);
 }
-
