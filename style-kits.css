@@ -4,6 +4,10 @@
     font-family: "destaque1";
     src: url(fontes/Handmade.otf) format(opentype);
 }
+@font-face {
+    font-family: "pascoa";
+    src: url(fontes/pascoa1.ttf) format(truetype);
+}
 
 
 * {
@@ -21,6 +25,7 @@
     --cor06: #f59cf281;
 
     --font01: "destaque1";
+    --fontpascoa: "pascoa";
 }
 
 body{
@@ -49,10 +54,11 @@ main{
     min-width: 300px;
     max-width: 1000px;
 }
+
 main h1{
-    font-family: var(--font01);
+    font-family:'Times New Roman', Times, serif; /*colocar outra fonte*/
     font-weight: 800;
-    font-size: 2em;
+    font-size: 1.6em;
 }
 main p{
     font-size: 1.2em;
@@ -60,22 +66,36 @@ main p{
     font-family: 'Times New Roman', Times, serif;
 }
 
+.ul{
+    text-align: left; 
+    font-size: 1.2em; 
+    font-weight: 800; 
+    list-style-type: '\2714\00a0\00a0';
+}
 #titulo{
     color: var(--cor04);
     text-align: center;
-    font-family: var(--font01);
-    font-weight: 800;
+    font-family: var(--fontpascoa);
+    font-weight: 500;
     font-size: 2.2em;
     line-height: 1em; /*espaçamento entre as linhas*/
 
-    margin: auto;    
+    margin: 10px;
+    margin-top: 15px;    
     padding: 11px;
     min-width: 300px;
     max-width: 1000px;
 }
 
-.imagem{
+#imagem{
     background-color: var(--cor06);
+    margin: 10px, 50px;
+    padding: 10px;
+    
+    margin: auto;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 1000px;
 }
 #img1{
     background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;

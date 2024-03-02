@@ -4,6 +4,10 @@
     font-family: "destaque1";
     src: url(fontes/Handmade.otf) format(opentype);
 }
+@font-face {
+    font-family: "pascoa";
+    src: url(fontes/pascoa1.ttf) format(truetype);
+}
 
 
 * {
@@ -21,6 +25,7 @@
     --cor06: #f59cf281;
 
     --font01: "destaque1";
+    --fontpascoa: "pascoa";
 }
 
 body{
@@ -47,8 +52,8 @@ header p img{
 #titulo{
     color: var(--cor04);
     text-align: center;
-    font-family: var(--font01);
-    font-weight: 800;
+    font-family: var(--fontpascoa);
+    font-weight: 500;
     font-size: 2.2em;
     line-height: 1em; /*espaçamento entre as linhas*/
 
