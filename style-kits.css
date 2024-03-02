@@ -79,7 +79,7 @@ main p{
     font-family: var(--fontpascoa);
     font-weight: 500;
     font-size: 2.2em;
-    line-height: 1em; /*espaçamento entre as linhas*/
+    line-height: 1.5em;
 
     margin: 10px;
     margin-top: 15px;    
@@ -118,8 +118,6 @@ main p{
 }
 .img{
     margin: 10px; 
-    min-width: 300px;
-    max-width: 1000px;
     border: 2px solid black;
     border-radius: 15px;
 }
