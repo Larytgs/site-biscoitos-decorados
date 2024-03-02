@@ -158,6 +158,9 @@ h2.color{
     font-weight: 100;
     font-size: 1.6em;
 }
+p{
+    text-indent: 20px;
+}
 p.text{
     color: var(--cor01);
     font-family: var(--font01);
