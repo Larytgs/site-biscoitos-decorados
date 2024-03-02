@@ -70,6 +70,7 @@ main p{
     text-align: left; 
     font-size: 1.2em; 
     font-weight: 800; 
+    list-style-position: inside;
     list-style-type: '\2714\00a0\00a0';
 }
 #titulo{
@@ -113,13 +114,6 @@ h2.color{
     line-height: 1.8em;
     font-weight: 100;
     font-size: 1.6em;
-}
-p.text{
-    color: var(--cor01);
-    font-family: var(--font01);
-    font-weight: 100;
-    font-size: 1.5em;
-    line-height: 1.1em; /*espaçamento entre as linhas*/   
 }
 
 footer p {
