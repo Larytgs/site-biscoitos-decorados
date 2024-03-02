@@ -70,13 +70,35 @@ main p{
 }
 
 
+
+.color{
+    color: var(--cor01);
+    text-align: left;
+    line-height: 1.2em;
+}
 .ul{
     text-align: left; 
     font-size: 1.2em; 
     font-weight: 800; 
+    line-height: 1.4em;
     list-style-position: inside;
     list-style-type: '\2714\00a0\00a0';
 }
+
+.card{
+    display: block;
+    align-items: center;
+    /*justify-content: space-between; deu mt espaço*/
+    cursor: pointer;
+}
+.img{
+    margin: 10px;  
+    padding: 11px;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+
 #titulo{
     color: var(--cor04);
     text-align: center;
@@ -104,24 +126,6 @@ main p{
 #img1{
     background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
     background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
-}
-.linha{
-    border: 5px solid #000000;
-    border-radius: 10px;
-}
-
-
-h1.color{
-    color: var(--cor01);
-    text-align: left;
-    line-height: 1.7em;
-}
-h2.color{
-    color: var(--cor01);
-    text-align: left;
-    line-height: 1.8em;
-    font-weight: 100;
-    font-size: 1.6em;
 }
 
 
