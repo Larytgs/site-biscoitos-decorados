@@ -120,6 +120,7 @@ main p{
     margin: 10px; 
     border: 2px solid black;
     border-radius: 15px;
+    width: 250px;
 }
 .img:hover{
     box-shadow: 0px 0px 8px 1.2px rgba(0, 0, 0, 0.616);
