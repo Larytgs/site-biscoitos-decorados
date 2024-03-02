@@ -26,6 +26,8 @@
 
     --font01: "destaque1";
     --fontpascoa: "pascoa";
+    --fontmulher: "diamulher";
+    --fontnamo: "dianamorados";
 }
 
 body{
@@ -38,12 +40,14 @@ body{
     flex-direction: column;
     justify-content: space-between; /*vai separar as partes do header do body e do footer*/
 }
+
 header{
     /*background-color: var(--cor03);*/
     background: url(imagens/imagemdefundonatalrosa.jpg) center no-repeat fixed;
     background-size: contain;
     width: 100%;
 }
+
 main{
     background-color: var(--cor00);
     margin: 10px, 50px;
@@ -54,7 +58,6 @@ main{
     min-width: 300px;
     max-width: 1000px;
 }
-
 main h1{
     font-family:'Times New Roman', Times, serif; /*colocar outra fonte*/
     font-weight: 800;
@@ -65,6 +68,7 @@ main p{
     line-height: 1.5em;
     font-family: 'Times New Roman', Times, serif;
 }
+
 
 .ul{
     text-align: left; 
@@ -87,7 +91,6 @@ main p{
     min-width: 300px;
     max-width: 1000px;
 }
-
 #imagem{
     background-color: var(--cor06);
     margin: 10px, 50px;
@@ -102,9 +105,14 @@ main p{
     background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
     background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
 }
+.linha{
+    border: 5px solid #000000;
+    border-radius: 10px;
+}
+
 
 h1.color{
-    color: var(--cor04);
+    color: var(--cor01);
     text-align: left;
     line-height: 1.7em;
 }
@@ -115,6 +123,7 @@ h2.color{
     font-weight: 100;
     font-size: 1.6em;
 }
+
 
 footer p {
     background-color: var(--cor03);
