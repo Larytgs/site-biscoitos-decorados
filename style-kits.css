@@ -57,11 +57,6 @@ main{
     min-width: 300px;
     max-width: 1000px;
 }
-main h1{
-    font-family:'Times New Roman', Times, serif; /*colocar outra fonte*/
-    font-weight: 800;
-    font-size: 1.6em;
-}
 main p{
     font-size: 1.2em;
     line-height: 1.5em;
@@ -100,7 +95,7 @@ main p{
     display: flex;
     flex-direction: column; /*deixar a coluna em baixo*/
 }
-.color{
+h2{
     font-family: var(--font01);
     font-size: 1.6em;
     color: var(--cor01);
