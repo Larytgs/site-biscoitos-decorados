@@ -74,7 +74,6 @@ main p{
     background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
 }
 #titulo{
-    text-align: center;
     color: var(--cor04);
     font-family: var(--fontpascoa);
     font-weight: 500;
