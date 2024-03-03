@@ -55,7 +55,7 @@ header p img{
     font-family: var(--fontpascoa);
     font-weight: 500;
     font-size: 2.2em;
-    line-height: 1em; /*espaçamento entre as linhas*/
+    line-height: 1.2em; /*espaçamento entre as linhas*/
 
     margin: auto;    
     padding: 11px;

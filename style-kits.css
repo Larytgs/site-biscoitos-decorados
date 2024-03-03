@@ -70,13 +70,14 @@ main p{
 }
 #titulo{
     color: var(--cor04);
+    text-align: center;
     font-family: var(--fontpascoa);
     font-weight: 500;
     font-size: 2.2em;
     line-height: 1.5em;
 
-    margin: 10px;
-    margin-top: 15px;    
+    margin: auto; 
+    margin-top: 15px;   
     padding: 11px;
     min-width: 300px;
     max-width: 1000px;
