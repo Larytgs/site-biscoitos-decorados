@@ -103,6 +103,16 @@ main p{
 #linha{
     line-height: 1.8em;
 }
+.img{
+    margin: 10px; 
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 250px;
+}
+.img:hover{
+    box-shadow: 0px 0px 8px 1.2px rgba(0, 0, 0, 0.616);
+    transition-duration: 0.2s;
+}
 
 article section{
     background-color: var(--cor02);
@@ -129,6 +139,18 @@ ul{
     background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
     background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
 }
+#img2{
+    background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
+    background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
+
+    display: flex; /*para deixar em linha*/
+    align-items: center; /*alinhado do centro*/
+}
+#coluna{
+    display: flex; /*para deixar em linha*/
+    align-items: center; /*alinhado do centro*/
+}
+
 #contatos{
     color: var(--cor05);
     background-color: var(--cor03);
@@ -214,3 +236,32 @@ footer p a:hover{
     color: var(--cor04);
 }
 
+
+
+@media (max-width: 700px){
+
+    header{
+        width: 460px;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+    }
+    header h1{
+        font-size: 2em;
+    }
+    main{
+        width: 450px;
+        
+    }
+
+    #img2{
+        background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
+        background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
+    
+        display: flex;
+        flex-direction: column; /*deixar a coluna em baixo*/
+    }
+}
