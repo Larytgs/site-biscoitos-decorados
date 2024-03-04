@@ -242,10 +242,6 @@ footer p a:hover{
     header h1{
         font-size: 2em;
     }
-    main{
-        width: 450px;
-        
-    }
     .img{
         margin: 10px; 
         border: 2px solid black;
