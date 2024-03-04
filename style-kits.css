@@ -51,6 +51,7 @@ main{
     margin: 10px, 50px;
     padding: 10px;
     
+    margin: auto;
     border-radius: 10px;
     min-width: 300px;
     max-width: 1000px;
