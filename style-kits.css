@@ -145,13 +145,13 @@ footer p a:hover{
 }
 
 
-@media (max-width: 768px){
+@media handheld and (min-width: 700px) and (orientantion: landscape){
     
     header h1{
         font-size: 2em;
     }
     main{
-        width: 450px;
+        width: 430px;
         
     }
 
@@ -159,7 +159,7 @@ footer p a:hover{
         margin: 10px; 
         border: 2px solid black;
         border-radius: 15px;
-        width: 250px;
+        width: 240px;
     }
     #img2{
         background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
