@@ -145,7 +145,7 @@ footer p a:hover{
 }
 
 
-@media handheld and (min-width: 700px) and (orientantion: landscape){
+@media (max-width: 750px){
     
     header h1{
         font-size: 2em;
