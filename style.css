@@ -239,16 +239,21 @@ footer p a:hover{
 
 
 @media (max-width: 700px){
+
     header h1{
         font-size: 2em;
     }
+    main{
+        width: 450px;
+        
+    }
+
     .img{
         margin: 10px; 
         border: 2px solid black;
         border-radius: 15px;
         width: 260px;
     }
-
     #img2{
         background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
         background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
