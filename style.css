@@ -244,15 +244,11 @@ footer p a:hover{
 
 @media (max-width: 700px){
 
-    body{
-        margin: auto;
-    }
     header h1{
         font-size: 2em;
     }
     main{
         width: 450px;
-        
     }
 
     .img{
