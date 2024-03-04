@@ -72,14 +72,12 @@ header p img{
 
 main{
     background-color: var(--cor00);
-    /*margin: 10px;*/
     padding: 10px;
     margin: auto;
     border-radius: 10px;
 
     min-width: 300px;
     max-width: 1000px;
-    width: 100%;
 }
 main h1{
     font-family: var(--font01);
@@ -141,6 +139,11 @@ ul{
 .imagem{
     background-color: var(--cor06);
     padding-left: 15px;
+
+    margin: auto;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 1000px;
 }
 #img1{
     background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;

@@ -48,7 +48,6 @@ header{
 }
 main{
     background-color: var(--cor00);
-    /*margin: 10px*/
     padding: 10px;
     margin: auto;
     border-radius: 10px;
