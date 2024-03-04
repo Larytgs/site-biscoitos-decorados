@@ -70,7 +70,7 @@ header p img{
 
 main{
     background-color: var(--cor00);
-    margin: 10px, 50px;
+    /*margin: 10px;*/
     padding: 10px;
     margin: auto;
     border-radius: 10px;
@@ -155,23 +155,6 @@ ul{
     align-items: center; /*alinhado do centro*/
 }
 
-#contatos{
-    color: var(--cor05);
-    background-color: var(--cor03);
-    padding: 10px;
-    margin-right: 10px;
-    font-family: var(--font01);
-    font-size: larger;
-    text-decoration: none;
-
-    border-radius: 10px;
-    box-shadow: -2px 2px 3px 3px rgba(0, 0, 0, 0.719);
-}
-#contatos:hover{
-    color: white;
-    box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.719);
-}
-
 
 h1.color{
     color: var(--cor04);
@@ -222,6 +205,24 @@ aside a:hover{
         color: var(--cor04);
         text-decoration: underline;
         font-weight: 600;
+}
+
+
+#contatos{
+    color: var(--cor05);
+    background-color: var(--cor03);
+    padding: 10px;
+    margin-right: 10px;
+    font-family: var(--font01);
+    font-size: larger;
+    text-decoration: none;
+
+    border-radius: 10px;
+    box-shadow: -2px 2px 3px 3px rgba(0, 0, 0, 0.719);
+}
+#contatos:hover{
+    color: white;
+    box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.719);
 }
 
 
