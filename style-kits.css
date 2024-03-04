@@ -151,6 +151,9 @@ footer p a:hover{
     main{
         width: 450px;
     }
+    article{
+        width: 450px;
+    }
 
     .img{
         margin: 10px; 
