@@ -72,12 +72,11 @@ main{
     background-color: var(--cor00);
     margin: 10px, 50px;
     padding: 10px;
-    
     margin: auto;
     border-radius: 10px;
-    width: 75%;
-    /*min-width: 300px;
-    max-width: 1000px;*/
+
+    min-width: 300px;
+    max-width: 1000px;
 }
 main h1{
     font-family: var(--font01);
@@ -249,7 +248,7 @@ footer p a:hover{
         font-size: 2em;
     }
     main{
-        width: 450px;
+        max-width: 450px;
         
     }
 
