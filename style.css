@@ -75,8 +75,9 @@ main{
     
     margin: auto;
     border-radius: 10px;
-    min-width: 300px;
-    max-width: 1000px;
+    width: 75%;
+    /*min-width: 300px;
+    max-width: 1000px;*/
 }
 main h1{
     font-family: var(--font01);
@@ -246,10 +247,6 @@ footer p a:hover{
 
     header h1{
         font-size: 2em;
-    }
-    main{
-        width: auto;
-        
     }
 
     .img{
