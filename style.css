@@ -251,6 +251,10 @@ footer p a:hover{
 
 @media (max-width: 750px){
 
+    #titulo{
+        font-size: 2em;
+    }
+
     .img{
         margin: 10px; 
         border: 2px solid black;
