@@ -70,7 +70,7 @@ header p img{
 }
 
 
-main article{
+main article{ /*sempre verificar se o codigo ta no lugar certo*/
     background-color: var(--cor00);
     padding: 10px;
     margin: auto;
@@ -119,7 +119,7 @@ main p{
     transition-duration: 0.2s;
 }
 
-article section{
+article section{ 
     margin: 10px;
     padding: 10px;
     min-width: 300px;
