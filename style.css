@@ -243,12 +243,12 @@ footer p a:hover{
 
 
 @media (max-width: 700px){
-    
+
     header h1{
         font-size: 2em;
     }
     main{
-        width: 100%;
+        width: auto;
         
     }
 
