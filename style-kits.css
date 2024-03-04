@@ -80,12 +80,12 @@ main p{
     text-align: center;
     font-family: var(--fontpascoa);
     font-weight: 500;
-    font-size: 2.2em;
+    font-size: 2.5em;
     line-height: 1.5em;
 
     margin: auto; 
     margin-top: 15px;   
-    padding: 11px;
+    padding: 15px;
     min-width: 300px;
     max-width: 1000px;
 }
