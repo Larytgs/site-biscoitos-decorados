@@ -244,6 +244,9 @@ footer p a:hover{
 
 @media (max-width: 768px){
 
+    body{
+        max-width: 450px;
+    }
     header h1{
         font-size: 2em;
     }
