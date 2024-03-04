@@ -244,17 +244,6 @@ footer p a:hover{
 
 @media (max-width: 768px){
 
-    body{
-        max-width: 450px;
-    }
-    header h1{
-        font-size: 2em;
-    }
-    main{
-        max-width: 450px;
-        
-    }
-
     .img{
         margin: 10px; 
         border: 2px solid black;
