@@ -94,6 +94,7 @@ main p{
     background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
     margin: 10px, 50px;
     padding: 10px;
+    padding-left: 15px;
     
     margin: auto;
     border-radius: 10px;
@@ -109,6 +110,7 @@ h2{
     line-height: 1.2em;
 }
 .ul{
+    padding-bottom: 10px;
     text-align: left; 
     font-size: 1.2em; 
     font-weight: 500; 
