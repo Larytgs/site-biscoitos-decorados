@@ -81,7 +81,7 @@ main p{
     font-family: var(--fontpascoa);
     font-weight: 500;
     font-size: 2.5em;
-    line-height: 1.5em;
+    line-height: 1.5em; /*espaçamento entre as linhas*/
 
     margin: auto; 
     margin-top: 15px;   
