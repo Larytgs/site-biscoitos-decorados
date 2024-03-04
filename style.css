@@ -249,6 +249,8 @@ footer p a:hover{
     }
     main{
         width: 450px;
+        margin: auto;
+        width: auto;
     }
 
     .img{
