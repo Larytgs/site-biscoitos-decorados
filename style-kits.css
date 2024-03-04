@@ -127,7 +127,6 @@ h2{
     transition-duration: 0.2s;
 }
 
-
 footer p {
     background-color: var(--cor03);
     text-align: center;
@@ -147,9 +146,6 @@ footer p a:hover{
     
     header h1{
         font-size: 2em;
-    }
-    main{
-        width: 450px;
     }
     article{
         width: 450px;
