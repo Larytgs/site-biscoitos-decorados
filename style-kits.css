@@ -39,12 +39,11 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between; /*vai separar as partes do header do body e do footer*/
+
+    width: 100%;
 }
 
 header{
-    /*background-color: var(--cor03);*/
-    background: url(imagens/imagemdefundonatalrosa.jpg) center no-repeat fixed;
-    background-size: contain;
     width: 100%;
 }
 main{

@@ -33,6 +33,10 @@ body{
     background-color: #ee5e9a27;
     background-size: cover;
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /*vai separar as partes do header do body e do footer*/
 }
 
 
