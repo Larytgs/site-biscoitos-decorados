@@ -79,6 +79,7 @@ main{
 
     min-width: 300px;
     max-width: 1000px;
+    width: 100%;
 }
 main h1{
     font-family: var(--font01);
