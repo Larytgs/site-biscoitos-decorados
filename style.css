@@ -158,9 +158,8 @@ ul{
     display: flex; /*para deixar em linha*/
     align-items: center; /*alinhado do centro*/
 }
-#coluna{
-    display: flex; /*para deixar em linha*/
-    align-items: center; /*alinhado do centro*/
+#colunas{
+    columns: 2;
 }
 
 
@@ -262,6 +261,10 @@ footer p a:hover{
 
     .espaçolateral{
         padding-right: 10%; /*espaços para os ingredientes dos sabores*/
+    }
+    #colunas{
+        display: flex; /*para deixar em linha*/
+        flex-direction: column; /*deixar a coluna em baixo*/
     }
     
     .img{
