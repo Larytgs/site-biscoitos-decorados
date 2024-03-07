@@ -185,7 +185,7 @@ p.text{
     color: var(--cor01);
     font-family: var(--font01);
     font-weight: 100;
-    font-size: 1.5em;
+    font-size: 1.6em;
     line-height: 1.1em; /*espaçamento entre as linhas*/   
 }
 a#linkit{

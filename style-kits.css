@@ -71,6 +71,15 @@ h1.color{
     font-family: var(--font01);
     font-size: 1.6em;
 }
+p.text{
+    color: var(--cor01);
+    font-family: var(--font01);
+    font-weight: 100;
+    font-size: 1.6em;
+    line-height: 1.1em; /*espaçamento entre as linhas*/ 
+    text-align: left;  
+    text-indent: 10px;
+}
 
 #img1{
     background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
