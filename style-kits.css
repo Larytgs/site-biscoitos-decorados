@@ -60,7 +60,17 @@ main p{
     line-height: 1.5em;
     font-family: 'Times New Roman', Times, serif;
 }
+div p{
+    font-family: var(--font01);
+}
 
+h1.color{
+    color: var(--cor04);
+    text-align: left;
+    line-height: 1.7em;
+    font-family: var(--font01);
+    font-size: 1.6em;
+}
 
 #img1{
     background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
