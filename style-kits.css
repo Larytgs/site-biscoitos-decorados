@@ -184,4 +184,7 @@ footer p a:hover{
         list-style-position: inside;
         list-style-type: '\2714\00a0\00a0';
     }
+    ul{
+        padding-right: 0px;
+    }
 }
