@@ -152,6 +152,8 @@ ul{
 #img2{
     background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
     background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
+    min-width: 300px;
+    max-width: 1000px;
 
     display: flex; /*para deixar em linha*/
     align-items: center; /*alinhado do centro*/
@@ -259,7 +261,7 @@ footer p a:hover{
     }
 
     .espaçolateral{
-        padding-right: 20%; /*espaços para os ingredientes dos sabores*/
+        padding-right: 10%; /*espaços para os ingredientes dos sabores*/
     }
     
     .img{
