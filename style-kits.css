@@ -76,7 +76,7 @@ p.text{
     font-family: var(--font01);
     font-weight: 100;
     font-size: 1.6em;
-    line-height: 1.1em; /*espaçamento entre as linhas*/ 
+    line-height: 1em; /*espaçamento entre as linhas*/ 
     text-align: left;  
     text-indent: 10px;
 }
