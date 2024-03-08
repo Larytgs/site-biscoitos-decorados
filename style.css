@@ -34,7 +34,7 @@ body{
     background-size: cover;
     text-align: center;
 
-    display: flex;
+    display: flex; /*coloquei na lateral os icones*/
     flex-direction: column;
     justify-content: space-between; /*vai separar as partes do header do body e do footer*/
 
@@ -114,6 +114,8 @@ main p{
 }
 #colunas{
     columns: 3;
+    column-gap: 65px; /*Alterando o tamanho do espaço entre as colunas*/
+    column-rule: 4px dotted var(--cor04); /*Adicionando uma regra entre colunas*/
 }
 
 
