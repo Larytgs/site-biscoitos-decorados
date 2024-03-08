@@ -266,9 +266,14 @@ footer p a:hover{
     .espaçolateral{
         padding-right: 10%; /*espaços para os ingredientes dos sabores*/
     }
-    #colunas{
+    /*#colunas{
         display: flex; /*para deixar em linha*/
-        flex-direction: column; /*deixar a coluna em baixo*/
+        /*flex-direction: column; /*deixar a coluna em baixo*/
+    
+
+    #colunas{
+        columns: 2;
+        column-rule: 3px dotted var(--cor04); /*Adicionando uma regra entre colunas*/
     }
     
     .img{
