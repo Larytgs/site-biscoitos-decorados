@@ -68,6 +68,15 @@ h1.color{
     font-family: var(--font01);
     font-size: 1.6em;
 }
+
+h2{
+    font-family: var(--font01);
+    font-size: 1.6em;
+    color: var(--cor01);
+    text-align: left;
+    line-height: 1.2em;
+}
+
 p.text{
     color: var(--cor01);
     font-family: var(--font01);
@@ -76,6 +85,19 @@ p.text{
     line-height: 1em; /*espaçamento entre as linhas*/ 
     text-align: left;  
     text-indent: 10px;
+}
+
+.imagem{
+    background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
+    background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
+    margin: 10px, 50px;
+    padding: 10px;
+    padding-left: 15px;
+    
+    margin: auto;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 1000px;
 }
 
 #img1{
@@ -104,26 +126,7 @@ p.text{
     min-width: 300px;
     max-width: 1000px;
 }
-.imagem{
-    background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
-    background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
-    margin: 10px, 50px;
-    padding: 10px;
-    padding-left: 15px;
-    
-    margin: auto;
-    border-radius: 10px;
-    min-width: 300px;
-    max-width: 1000px;
-}
 
-h2{
-    font-family: var(--font01);
-    font-size: 1.6em;
-    color: var(--cor01);
-    text-align: left;
-    line-height: 1.2em;
-}
 .ul{
     padding-bottom: 10px;
     padding-left: 8px;

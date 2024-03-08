@@ -101,6 +101,7 @@ main p{
     text-indent: 0px;
     font-family: 'Times New Roman', Times, serif;
 }
+
 #espaçodelinha{
     line-height: 1.7em;
     font-weight: 800;
@@ -108,16 +109,13 @@ main p{
 #linha{
     line-height: 1.8em;
 }
-.img{
-    margin: 10px; 
-    border: 2px solid black;
-    border-radius: 15px;
-    width: 260px;
+#destaque{
+    color: var(--cor04);
 }
-.img:hover{
-    box-shadow: 0px 0px 8px 1.2px rgba(0, 0, 0, 0.616);
-    transition-duration: 0.2s;
+#colunas{
+    columns: 3;
 }
+
 
 article section{ 
     margin: 10px;
@@ -133,9 +131,6 @@ ul{
 }
 
 
-#destaque{
-    color: var(--cor04);
-}
 .imagem{
     background-color: var(--cor05);
     padding-left: 15px;
@@ -158,8 +153,15 @@ ul{
     display: flex; /*para deixar em linha*/
     align-items: center; /*alinhado do centro*/
 }
-#colunas{
-    columns: 2;
+.img{
+    margin: 10px; 
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 260px;
+}
+.img:hover{
+    box-shadow: 0px 0px 8px 1.2px rgba(0, 0, 0, 0.616);
+    transition-duration: 0.2s;
 }
 
 
@@ -175,12 +177,16 @@ h2.color{
     font-weight: 900;
     font-size: 1.6em;
 }
-.espaçolateral{
-    padding-right: 43%; /*espaços para os ingredientes dos sabores*/
+h3{
+    text-align: left;
+    line-height: 1em;
+    font-size: 1.1em;
+    font-weight: 100;
 }
 p{
     text-indent: 20px;
 }
+
 p.text{
     color: var(--cor01);
     font-family: var(--font01);
@@ -196,12 +202,8 @@ a#linkit{
 a#linkit:hover{
     text-decoration: underline;
 }
-
-h3{
-    text-align: left;
-    line-height: 1em;
-    font-size: 1.1em;
-    font-weight: 100;
+.espaçolateral{
+    padding-right: 43%; /*espaços para os ingredientes dos sabores*/
 }
 
 
