@@ -60,9 +60,6 @@ main p{
     line-height: 1.5em;
     font-family: 'Times New Roman', Times, serif;
 }
-div p{
-    font-family: var(--font01);
-}
 
 h1.color{
     color: var(--cor04);
