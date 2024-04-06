@@ -58,8 +58,8 @@ header p img{
 #titulo{
     color: var(--cor04);
     text-align: center;
-    font-family: var(--fontpascoa);
-    font-weight: 500;
+    font-family: var(--font01);
+    font-weight: 800;
     font-size: 2.2em;
     line-height: 1.5em; /*espaçamento entre as linhas*/
 
