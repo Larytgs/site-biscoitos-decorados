@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "destaque1";
+    src: url(fontes/Handmade.otf) format(opentype);
+}
+@font-face {
+    font-family: "pascoa";
+    src: url(fontes/pascoa1.ttf) format(truetype);
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor00: #FFF8EB;
+    --cor01: #000000;
+    --cor02: #ff7bf862;
+    --cor03: #c85e8ad3;
+    --cor04: #872982;
+    --cor05: #FFDDFE;
+    --cor06: #f59cf281;
+
+    --font01: "destaque1";
+    --fontpascoa: "pascoa";
+    --fontmulher: "diamulher";
+    --fontnamo: "dianamorados";
+}
+
+body{
+    height: 98vh; /*altura do fundo do body tem que colocar p funcionar*/
+    background-color: #ee5e9a27;
+    background-size: cover;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /*vai separar as partes do header do body e do footer*/
+
+    width: 100%;
+}
+
+header{
+    width: 100%;
+}
+main{
+    background-color: var(--cor00);
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+
+    min-width: 300px;
+    max-width: 1000px;
+}
+main p{
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1.color{
+    color: var(--cor04);
+    text-align: left;
+    line-height: 1.7em;
+    font-family: var(--font01);
+    font-size: 1.7em;
+}
+
+h2{
+    font-family: var(--font01);
+    font-size: 1.6em;
+    color: var(--cor01);
+    text-align: left;
+    line-height: 1.2em;
+}
+
+p.text{
+    color: var(--cor01);
+    font-family: var(--font01);
+    font-weight: 100;
+    font-size: 1.6em;
+    line-height: 1em; /*espaçamento entre as linhas*/ 
+    text-align: left;  
+    text-indent: 10px;
+}
+
+.imagem{
+    background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
+    background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
+    margin: 10px, 50px;
+    padding: 10px;
+    padding-left: 15px;
+    
+    margin: auto;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+#img1{
+    background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
+    background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
+}
+#img2{
+    display: flex; /*para deixar em linha*/
+    align-items: center; /*alinhado do centro*/
+}
+#coluna{
+    display: flex; /*para deixar em linha*/
+    align-items: center; /*alinhado do centro*/
+}
+#titulo{
+    color: var(--cor04);
+    text-align: center;
+    font-family: var(--font01);
+    font-weight: 800;
+    font-size: 2.5em;
+    line-height: 1.5em; /*espaçamento entre as linhas*/
+
+    margin: auto; 
+    margin-top: 15px;   
+    padding: 15px;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+.ul{
+    padding-bottom: 10px;
+    padding-left: 8px;
+    text-align: left; 
+    font-size: 1.2em; 
+    font-weight: 500; 
+    line-height: 1.4em;
+    list-style-position: inside;
+    list-style-type: '\2714\00a0\00a0';
+}
+.img{
+    margin: 10px; 
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 260px;
+}
+.img:hover{
+    box-shadow: 0px 0px 8px 1.2px rgba(0, 0, 0, 0.616);
+    transition-duration: 0.2s;
+}
+
+footer p {
+    background-color: var(--cor03);
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 0px;
+    padding: 8px;
+    color: var(--cor01);
+}
+footer p a{
+    color: var(--cor01);    
+}
+footer p a:hover{
+    color: var(--cor04);
+}
+
+
+@media (max-width: 750px){
+    
+    header h1{
+        font-size: 2em;
+    }
+
+    .img{
+        margin: 10px; 
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 240px;
+    }
+    #img2{
+        background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
+        background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
+    
+        display: flex;
+        flex-direction: column; /*deixar a coluna em baixo*/
+    }
+}

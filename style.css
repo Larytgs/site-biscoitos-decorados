@@ -1,0 +1,286 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "destaque1";
+    src: url(fontes/Handmade.otf) format(opentype);
+}
+@font-face {
+    font-family: "pascoa";
+    src: url(fontes/pascoa1.ttf) format(truetype);
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor00: #FFF8EB;
+    --cor01: #000000;
+    --cor02: #ff7bf862;
+    --cor03: #c85e8ad3;
+    --cor04: #872982;
+    --cor05: #FFDDFE;
+    --cor06: #f59cf281;
+
+    --font01: "destaque1";
+    --fontpascoa: "pascoa";
+}
+
+body{
+    height: 98vh; /*altura do fundo do body tem que colocar p funcionar*/
+    background-color: #ee5e9a27;
+    background-size: cover;
+    text-align: center;
+
+    display: flex; /*coloquei na lateral os icones*/
+    flex-direction: column;
+    justify-content: space-between; /*vai separar as partes do header do body e do footer*/
+
+    width: 100%;
+}
+
+
+header{
+    /*background-color: var(--cor03);*/
+    background: url(imagens/imagemdefundonatalrosa.jpg) center no-repeat fixed;
+    background-size: contain;
+    width: 100%;
+}
+header p img{
+    margin-top: 55px;
+    margin-bottom: 20px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+#titulo{
+    color: var(--cor04);
+    text-align: center;
+    font-family: var(--font01);
+    font-weight: 800;
+    font-size: 2.2em;
+    line-height: 1.5em; /*espaçamento entre as linhas*/
+
+    margin: auto;    
+    padding: 11px;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+
+main article{ /*sempre verificar se o codigo ta no lugar certo*/
+    background-color: var(--cor00);
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+
+    min-width: 300px;
+    max-width: 1000px;
+}
+main h1{
+    font-family: var(--font01);
+    font-weight: 800;
+    font-size: 2em;
+}
+main h2{
+    font-family: var(--font01);
+    color: var(--cor04);
+    text-align: left;
+    line-height: 1.2em;
+    font-weight: 800;
+    font-size: 2em;
+}
+main h3{
+    line-height: 1.3em;
+}
+main p{
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-indent: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#espaçodelinha{
+    line-height: 1.7em;
+    font-weight: 800;
+}
+#linha{
+    line-height: 1.8em;
+}
+#destaque{
+    color: var(--cor04);
+}
+#colunas{
+    columns: 3;
+    column-gap: 65px; /*Alterando o tamanho do espaço entre as colunas*/
+    column-rule: 4px dotted var(--cor04); /*Adicionando uma regra entre colunas*/
+}
+
+
+article section{ 
+    margin: 10px;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+    border-radius: 10px;
+}
+ul{
+    font-size: 1.1em;
+    text-align: left;
+    list-style-position: inside;
+}
+
+
+.imagem{
+    background-color: var(--cor05);
+    padding-left: 15px;
+
+    margin: auto;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+}
+#img1{
+    background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
+    background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
+}
+#img2{
+    background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
+    background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
+    min-width: 300px;
+    max-width: 1000px;
+
+    display: flex; /*para deixar em linha*/
+    align-items: center; /*alinhado do centro*/
+}
+.img{
+    margin: 10px; 
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 260px;
+}
+.img:hover{
+    box-shadow: 0px 0px 8px 1.2px rgba(0, 0, 0, 0.616);
+    transition-duration: 0.2s;
+}
+
+
+h1.color{
+    color: var(--cor04);
+    text-align: left;
+    line-height: 1.7em;
+}
+h2.color{
+    color: var(--cor01);
+    text-align: left;
+    line-height: 1.8em;
+    font-weight: 900;
+    font-size: 1.6em;
+}
+h3{
+    text-align: left;
+    line-height: 1em;
+    font-size: 1.1em;
+    font-weight: 100;
+}
+p{
+    text-indent: 20px;
+}
+
+p.text{
+    color: var(--cor01);
+    font-family: var(--font01);
+    font-weight: 100;
+    font-size: 1.6em;
+    line-height: 1.1em; /*espaçamento entre as linhas*/   
+}
+a#linkit{
+    text-decoration: none;
+    color: var(--cor04);
+    font-weight: 800;
+}
+a#linkit:hover{
+    text-decoration: underline;
+}
+.espaçolateral{
+    padding-right: 43%; /*espaços para os ingredientes dos sabores*/
+}
+
+
+aside a{
+
+        text-decoration: none;
+        text-decoration: underline;
+        color: var(--cor01);
+}
+aside a:hover{
+        color: var(--cor04);
+        text-decoration: underline;
+        font-weight: 600;
+}
+
+
+#contatos{
+    color: var(--cor05);
+    background-color: var(--cor03);
+    padding: 10px;
+    margin-right: 10px;
+    font-family: var(--font01);
+    font-size: larger;
+    text-decoration: none;
+
+    border-radius: 10px;
+    box-shadow: -2px 2px 3px 3px rgba(0, 0, 0, 0.719);
+}
+#contatos:hover{
+    color: white;
+    box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.719);
+}
+
+
+footer p {
+    background-color: var(--cor03);
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 0px;
+    padding: 8px;
+    color: var(--cor01);
+}
+footer p a{
+    color: var(--cor01);    
+}
+footer p a:hover{
+    color: var(--cor04);
+}
+
+
+
+@media (max-width: 750px){
+
+    #titulo{
+        font-size: 2em;
+    }
+
+    .espaçolateral{
+        padding-right: 10%; /*espaços para os ingredientes dos sabores*/
+    }
+    #colunas{
+        display: flex; /*para deixar em linha*/
+        flex-direction: column; /*deixar a coluna em baixo*/
+    }
+    .img{
+        margin: 10px; 
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 240px;
+    }
+    #img2{
+        background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
+        background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
+    
+        display: flex;
+        flex-direction: column; /*deixar a coluna em baixo*/
+    }
+}
