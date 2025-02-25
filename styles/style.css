@@ -83,14 +83,15 @@ main h1{
     font-family: var(--font01);
     font-weight: 800;
     font-size: 2em;
+    text-align: center;
 }
 main h2{
     font-family: var(--font01);
     color: var(--cor04);
-    text-align: left;
+    text-align: center;
     line-height: 1.2em;
-    font-weight: 800;
-    font-size: 2em;
+    font-weight: 100;
+    font-size: 2.3em;
 }
 main h3{
     line-height: 1.3em;
@@ -167,12 +168,12 @@ ul{
 }
 
 
-h1.color{
+.color1{
     color: var(--cor04);
     text-align: left;
     line-height: 1.7em;
 }
-h2.color{
+.color2{
     color: var(--cor01);
     text-align: left;
     line-height: 1.8em;
