@@ -138,19 +138,18 @@ footer p a:hover{
     }
 
     article p{
-        color: var(--cor01);
-        font-family: var(--font01);
         font-size: 1.4em;
-        line-height: 1em; /*espaçamento entre as linhas*/ 
-        text-align: left;  
-        text-indent: 10px;
-        padding: 0px 30px;
+        line-height: 1em; /*espaçamento entre as linhas*/  
     }
     
 
     @media (max-width: 540px){
         #titulo{
             font-size: 1.7em;
+        }
+
+        #FAQ{
+            margin: auto;
         }
 
         article h3{
