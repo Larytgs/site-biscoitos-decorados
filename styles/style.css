@@ -205,8 +205,10 @@ a#linkit:hover{
 }
 
 
+aside{
+    margin-bottom: 25px;
+}
 aside a{
-
         text-decoration: none;
         text-decoration: underline;
         color: var(--cor01);
