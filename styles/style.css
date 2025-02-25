@@ -185,7 +185,7 @@ ul{
     font-size: 1.6em;
 }
 
-p.text{
+.text{
     color: var(--cor01);
     font-family: var(--font01);
     font-weight: 100;
@@ -285,16 +285,26 @@ footer p a:hover{
             font-size: 1.7em;
         }
 
+        main h1{
+            font-size: 1.8em;
+        }
         main h2{
-            font-family: var(--font01);
-            color: var(--cor04);
-            text-align: center;
-            line-height: 1.2em;
-            font-weight: 100;
-            font-size: 2em;
+            font-size: 1.7em;
         }
         main h3{
-            line-height: 1.3em;
+            font-size: 1.1em;
+        }
+
+        .color1{
+            line-height: 1.1em;
+            margin-top: 15px;
+        }
+
+        .text{
+            font-size: 1.4em;
+        }
+        #contatos{
+            font-size: 1.2em;
         }
     }
 }
