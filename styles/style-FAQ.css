@@ -72,6 +72,9 @@ main{
     max-width: 1000px;
 }
 
+article{
+    padding-top: 30px;
+}
 article p{
     color: var(--cor01);
     font-family: var(--font01);
