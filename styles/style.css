@@ -284,4 +284,22 @@ footer p a:hover{
         display: flex;
         flex-direction: column; /*deixar a coluna em baixo*/
     }
+
+    @media (max-width: 540px){
+        #titulo{
+            font-size: 1.7em;
+        }
+
+        main h2{
+            font-family: var(--font01);
+            color: var(--cor04);
+            text-align: center;
+            line-height: 1.2em;
+            font-weight: 100;
+            font-size: 2em;
+        }
+        main h3{
+            line-height: 1.3em;
+        }
+    }
 }
