@@ -157,5 +157,10 @@ footer p a:hover{
             font-size: 1.4em;
             margin: 15px 25px 10px 15px;
         }
+
+        article p{
+            font-size: 1.3em;
+            font-weight: 100;
+        }
     }
 }
