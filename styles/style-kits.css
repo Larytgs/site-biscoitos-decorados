@@ -60,6 +60,16 @@ main p {
   font-family: "Times New Roman", Times, serif;
 }
 
+#tituloKits {
+  display: ruby;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#button {
+  text-decoration: none;
+  font-size: x-large;
+}
+
 h1.color {
   color: var(--cor04);
   text-align: left;
@@ -164,7 +174,11 @@ footer p a:hover {
 
 @media (max-width: 750px) {
   header h1 {
-    font-size: 2em;
+    font-size: 1.8em;
+  }
+
+  #titulo {
+    font-size: 1.8em;
   }
 
   .img {
@@ -179,5 +193,31 @@ footer p a:hover {
 
     display: flex;
     flex-direction: column; /*deixar a coluna em baixo*/
+  }
+}
+
+@media (max-width: 550px) {
+  #titulo {
+    font-size: 1.2em;
+    display: flex;
+  }
+
+  #button {
+    text-decoration: none;
+    font-size: large;
+  }
+}
+
+@media (max-width: 380px) {
+  #tituloKits {
+    display: flex;
+    align-items: center;
+  }
+  #titulo {
+    font-size: 1.2em;
+  }
+  #button {
+    margin-left: 5%;
+    align-items: center;
   }
 }
