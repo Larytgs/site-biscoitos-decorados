@@ -184,16 +184,8 @@ footer p a:hover {
 }
 
 @media (max-width: 380px) {
-  #tituloKits {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-evenly;
-  }
   #titulo {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   #button {
     margin-left: 5%;
