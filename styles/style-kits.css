@@ -65,7 +65,7 @@ main p {
   align-items: center;
   flex-direction: row;
   align-content: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 #button {
   text-decoration: none;
