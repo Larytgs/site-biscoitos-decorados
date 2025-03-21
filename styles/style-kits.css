@@ -61,21 +61,29 @@ main p {
 }
 
 #tituloKits {
-  display: ruby;
-  justify-content: space-evenly;
+  display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
 }
 #button {
   text-decoration: none;
   font-size: x-large;
+  align-items: center;
 }
-
-h1.color {
+#titulo {
   color: var(--cor04);
-  text-align: left;
-  line-height: 1.7em;
+  text-align: center;
   font-family: var(--font01);
-  font-size: 1.7em;
+  font-weight: 800;
+  font-size: 2em;
+  line-height: 1.5em; /*espaçamento entre as linhas*/
+
+  padding: 15px;
+  min-width: 300px;
+  max-width: 1000px;
 }
 
 h2 {
@@ -84,16 +92,7 @@ h2 {
   color: var(--cor01);
   text-align: left;
   line-height: 1.2em;
-}
-
-p.text {
-  color: var(--cor01);
-  font-family: var(--font01);
-  font-weight: 100;
-  font-size: 1.6em;
-  line-height: 1em; /*espaçamento entre as linhas*/
-  text-align: left;
-  text-indent: 10px;
+  padding-right: 70px;
 }
 
 .imagem {
@@ -108,7 +107,6 @@ p.text {
   min-width: 300px;
   max-width: 1000px;
 }
-
 #img1 {
   background: url(imagens/imagemdefundorosa.jpg) center no-repeat fixed;
   background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
@@ -116,24 +114,6 @@ p.text {
 #img2 {
   display: flex; /*para deixar em linha*/
   align-items: center; /*alinhado do centro*/
-}
-#coluna {
-  display: flex; /*para deixar em linha*/
-  align-items: center; /*alinhado do centro*/
-}
-#titulo {
-  color: var(--cor04);
-  text-align: center;
-  font-family: var(--font01);
-  font-weight: 800;
-  font-size: 2.5em;
-  line-height: 1.5em; /*espaçamento entre as linhas*/
-
-  margin: auto;
-  margin-top: 15px;
-  padding: 15px;
-  min-width: 300px;
-  max-width: 1000px;
 }
 
 .ul {
@@ -173,10 +153,6 @@ footer p a:hover {
 }
 
 @media (max-width: 750px) {
-  header h1 {
-    font-size: 1.8em;
-  }
-
   #titulo {
     font-size: 1.8em;
   }
@@ -199,7 +175,6 @@ footer p a:hover {
 @media (max-width: 550px) {
   #titulo {
     font-size: 1.2em;
-    display: flex;
   }
 
   #button {
@@ -212,6 +187,10 @@ footer p a:hover {
   #tituloKits {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
   }
   #titulo {
     font-size: 1.2em;
