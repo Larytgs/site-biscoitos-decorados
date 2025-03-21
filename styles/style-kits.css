@@ -63,7 +63,6 @@ main p {
 #tituloKits {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
   flex-direction: row;
   align-content: center;
   justify-content: space-evenly;
@@ -189,7 +188,7 @@ footer p a:hover {
     font-size: 1em;
   }
   #button {
-    margin-left: 5%;
     align-items: center;
+    width: 25px;
   }
 }
