@@ -180,6 +180,7 @@ footer p a:hover {
   #button {
     text-decoration: none;
     font-size: large;
+    margin-left: 15%;
   }
 }
 
@@ -190,5 +191,6 @@ footer p a:hover {
   #button {
     align-items: center;
     width: 25px;
+    margin-left: 15%;
   }
 }
