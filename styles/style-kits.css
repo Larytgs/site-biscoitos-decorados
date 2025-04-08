@@ -28,7 +28,10 @@
   --fontmulher: "diamulher";
   --fontnamo: "dianamorados";
 }
-
+body,
+html {
+  overflow-x: hidden;
+}
 body {
   height: 98vh; /*altura do fundo do body tem que colocar p funcionar*/
   background-color: #ee5e9a27;
