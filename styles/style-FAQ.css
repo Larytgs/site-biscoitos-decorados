@@ -29,7 +29,8 @@
   --fontnamo: "dianamorados";
 }
 body,
-html {
+html,
+header {
   overflow-x: hidden;
 }
 body {
