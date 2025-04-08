@@ -29,8 +29,7 @@
   --fontnamo: "dianamorados";
 }
 body,
-html,
-header {
+html {
   overflow-x: hidden;
 }
 body {
@@ -47,7 +46,8 @@ body {
 }
 
 main {
-  background-color: var(--cor00);
+  background: url(/imagens/imagemdefundorosa.jpg) center no-repeat fixed;
+  background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
   margin: auto;
   border-radius: 10px;
 
