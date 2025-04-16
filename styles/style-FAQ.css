@@ -116,6 +116,12 @@ a#linkInicio:hover {
   text-decoration: underline;
 }
 
+#linkKits {
+  text-decoration: none;
+  color: #872982;
+  font-weight: 800;
+}
+
 footer p {
   background-color: var(--cor03);
   text-align: center;
