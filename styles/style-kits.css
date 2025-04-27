@@ -128,6 +128,10 @@
   #mainKits {
     margin: 0%;
   }
+
+  #mainKits p {
+    font-size: 1.2em;
+  }
 }
 
 @media (max-width: 380px) {

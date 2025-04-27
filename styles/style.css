@@ -43,8 +43,6 @@ body {
 }
 
 header {
-  /*background-color: var(--ContatosFooter);*/
-  background: url(imagens/imagemdefundonatalrosa.jpg) center no-repeat fixed;
   background-size: contain;
   width: 100%;
 }
