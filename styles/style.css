@@ -15,13 +15,11 @@
 }
 
 :root {
-  --cor00: #fff8eb;
-  --cor01: #000000;
-  --cor02: #ff7bf862;
-  --cor03: #c85e8ad3;
-  --cor04: #872982;
-  --cor05: #ffddfe;
-  --cor06: #f59cf281;
+  --fundoMain: #5c9dda69;
+  --titulos: #8e0ecf;
+  --textos: #000000;
+  --destaques: #5c9dda69;
+  --ContatosFooter: #8a19d0d8;
 
   --font01: "destaque1";
   --fontpascoa: "pascoa";
@@ -34,7 +32,7 @@ body {
 
 body {
   height: 98vh; /*altura do fundo do body tem que colocar p funcionar*/
-  background-color: #ee5e9a27;
+  background-color: #5c9dda69;
   background-size: cover;
   text-align: center;
 
@@ -46,7 +44,7 @@ body {
 }
 
 header {
-  /*background-color: var(--cor03);*/
+  /*background-color: var(--ContatosFooter);*/
   background: url(imagens/imagemdefundonatalrosa.jpg) center no-repeat fixed;
   background-size: contain;
   width: 100%;
@@ -59,7 +57,7 @@ header p img {
 }
 
 #titulo {
-  color: var(--cor04);
+  color: var(--titulos);
   text-align: center;
   font-family: var(--font01);
   font-weight: 800;
@@ -74,9 +72,10 @@ header p img {
 
 main article {
   /*sempre verificar se o codigo ta no lugar certo*/
-  background-color: var(--cor00);
+  /* background-color: var(--fundoMain); */
   padding: 10px;
   margin: auto;
+  border: var(--ContatosFooter);
   border-radius: 10px;
 
   min-width: 300px;
@@ -84,7 +83,7 @@ main article {
 }
 main h1 {
   font-family: var(--font01);
-  color: var(--cor04);
+  color: var(--titulos);
   text-align: center;
   font-weight: 800;
   font-size: 1.7em;
@@ -95,6 +94,11 @@ main h2 {
   line-height: 1.2em;
   font-weight: 100;
   font-size: 1.2em;
+}
+main p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-family: "Times New Roman", Times, serif;
 }
 
 p {
@@ -113,12 +117,12 @@ p {
   line-height: 1.8em;
 }
 #destaque {
-  color: var(--cor04);
+  color: var(--titulos);
 }
 #colunas {
   columns: 2;
   column-gap: 65px; /*Alterando o tamanho do espaço entre as colunas*/
-  column-rule: 4px dotted var(--cor04); /*Adicionando uma regra entre colunas*/
+  column-rule: 4px dotted var(--titulos); /*Adicionando uma regra entre colunas*/
 }
 
 article section {
@@ -135,7 +139,6 @@ ul {
 }
 
 .imagem {
-  background-color: var(--cor05);
   padding-left: 15px;
 
   margin: auto;
@@ -168,27 +171,32 @@ ul {
 }
 
 .color1 {
-  color: var(--cor04);
+  color: var(--titulos);
   text-align: left;
 }
 .color2 {
-  color: var(--cor01);
+  color: var(--textos);
   text-align: left;
   /* line-height: 1.8em; */
   font-weight: 900;
 }
 
+#embalagens {
+  text-align: center;
+}
+
 .text {
-  color: var(--cor01);
+  color: var(--textos);
   font-family: var(--font01);
   font-weight: 100;
   font-size: 1.6em;
   line-height: 1.1em; /*espaçamento entre as linhas*/
 }
+
 a#linkit,
 #linkFAQ {
   text-decoration: overline underline;
-  color: var(--cor04);
+  color: var(--titulos);
   font-weight: 800;
 }
 a#linkit:hover {
@@ -207,17 +215,17 @@ aside {
 aside a {
   text-decoration: none;
   text-decoration: underline;
-  color: var(--cor01);
+  color: var(--textos);
 }
 aside a:hover {
-  color: var(--cor04);
+  color: var(--titulos);
   text-decoration: underline;
   font-weight: 600;
 }
 
 #contatos {
-  color: var(--cor05);
-  background-color: var(--cor03);
+  color: var(--textos);
+  background-color: var(--ContatosFooter);
   padding: 10px;
   margin-right: 10px;
   font-family: var(--font01);
@@ -233,18 +241,18 @@ aside a:hover {
 }
 
 footer p {
-  background-color: var(--cor03);
+  background-color: var(--ContatosFooter);
   text-align: center;
   margin-top: 5px;
   margin-right: 0px;
   padding: 8px;
-  color: var(--cor01);
+  color: var(--textos);
 }
 footer p a {
-  color: var(--cor01);
+  color: var(--textos);
 }
 footer p a:hover {
-  color: var(--cor04);
+  color: var(--titulos);
 }
 
 @media (max-width: 750px) {
@@ -253,6 +261,10 @@ footer p a:hover {
   }
   main h1 {
     margin-top: 5px;
+  }
+
+  #tituloKitsh1 {
+    font-size: 1.8em;
   }
 
   .espaçolateral {
@@ -275,26 +287,35 @@ footer p a:hover {
     display: flex;
     flex-direction: column; /*deixar a coluna em baixo*/
   }
+}
 
-  @media (max-width: 540px) {
-    #titulo {
-      font-size: 1.7em;
-    }
-    main h1 {
-      margin-top: 5px;
-    }
+@media (max-width: 540px) {
+  #titulo {
+    font-size: 1.7em;
+  }
+  main h1 {
+    margin-top: 5px;
+  }
 
-    .color1 {
-      line-height: 1.1em;
-      margin-top: 15px;
-    }
+  #tituloKitsh1 {
+    font-size: 1.2em;
+  }
+  #tituloKitsbutton {
+    text-decoration: none;
+    font-size: large;
+    margin-left: 15%;
+  }
 
-    .text {
-      font-size: 1.4em;
-    }
-    #contatos {
-      font-size: 1.2em;
-    }
+  .color1 {
+    line-height: 1.1em;
+    margin-top: 15px;
+  }
+
+  .text {
+    font-size: 1.4em;
+  }
+  #contatos {
+    font-size: 1.2em;
   }
 }
 
@@ -305,5 +326,14 @@ footer p a:hover {
   }
   main h1 {
     font-size: 1.5em;
+  }
+
+  #tituloKitsh1 {
+    font-size: 1em;
+  }
+  #tituloKitsbutton {
+    align-items: center;
+    width: 25px;
+    margin-left: 15%;
   }
 }
