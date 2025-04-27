@@ -163,7 +163,7 @@ ul {
   background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
 }
 #img2 {
-  background: url(/imagens/coraçoes.webp) center no-repeat fixed;
+  background: url(/imagens/coraçoes.jpg) center no-repeat fixed;
   background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
   min-width: 300px;
   max-width: 1000px;
