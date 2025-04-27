@@ -28,6 +28,7 @@
 #mainKits {
   background-color: var(--cor00);
   border-radius: 10px;
+  margin: auto;
 
   min-width: 300px;
   max-width: 1000px;

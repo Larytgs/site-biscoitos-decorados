@@ -69,6 +69,21 @@ header p img {
   max-width: 1000px;
 }
 
+#tituloFAQ {
+  color: var(--titulos);
+  text-align: center;
+  font-family: var(--font01);
+  font-weight: 800;
+  font-size: 1.9em;
+  line-height: 1.5em; /*espaçamento entre as linhas*/
+
+  margin: auto;
+  margin-top: 10px;
+  padding: 11px;
+  min-width: 300px;
+  max-width: 1000px;
+}
+
 main article {
   /*sempre verificar se o codigo ta no lugar certo*/
   /* background-color: var(--fundoMain); */
@@ -262,7 +277,7 @@ footer p a:hover {
     margin-top: 5px;
   }
 
-  #tituloKitsh1 {
+  #tituloFAQ {
     font-size: 1.8em;
   }
 
@@ -292,17 +307,12 @@ footer p a:hover {
   #titulo {
     font-size: 1.7em;
   }
-  main h1 {
-    margin-top: 5px;
+  #tituloFAQ {
+    font-size: 1.7em;
   }
 
-  #tituloKitsh1 {
-    font-size: 1.2em;
-  }
-  #tituloKitsbutton {
-    text-decoration: none;
-    font-size: large;
-    margin-left: 15%;
+  main h1 {
+    margin-top: 5px;
   }
 
   .color1 {
@@ -327,8 +337,8 @@ footer p a:hover {
     font-size: 1.5em;
   }
 
-  #tituloKitsh1 {
-    font-size: 1em;
+  #tituloFAQ {
+    font-size: 1.8em;
   }
   #tituloKitsbutton {
     align-items: center;
