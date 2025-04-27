@@ -113,7 +113,7 @@
 
 @media (max-width: 550px) {
   #tituloKitsh1 {
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
   #tituloKitsbutton {
     text-decoration: none;
@@ -121,9 +121,9 @@
     margin-left: 15%;
   }
 
-  #kitsImportantes h1 {
-    font-size: 1.2em;
-  }
+  /* #kitsImportantes h1 {
+    font-size: 1.4em;
+  } */
 
   #mainKits {
     margin: 0%;
