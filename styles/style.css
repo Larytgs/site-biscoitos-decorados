@@ -317,6 +317,7 @@ footer p a:hover {
 
   #img2 {
     background: url(/imagens/fundoAzul2.png) center no-repeat fixed;
+    background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador*/
   }
 
   .text {
