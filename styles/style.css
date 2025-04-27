@@ -16,7 +16,7 @@
 
 :root {
   --fundoMain: #5c9dda69;
-  --titulos: #8e0ecf;
+  --titulos: #8f0ccf;
   --textos: #000000;
   --destaques: #5c9dda69;
   --ContatosFooter: #8a19d0d8;
@@ -31,7 +31,6 @@ body {
 }
 
 body {
-  height: 98vh; /*altura do fundo do body tem que colocar p funcionar*/
   background-color: #5c9dda69;
   background-size: cover;
   text-align: center;

@@ -27,8 +27,6 @@
 
 #mainKits {
   background-color: var(--cor00);
-  padding: 10px;
-  margin: auto;
   border-radius: 10px;
 
   min-width: 300px;
@@ -122,10 +120,6 @@
     margin-left: 15%;
   }
 
-  .imagemKits {
-    border: none;
-  }
-
   #kitsImportantes h1 {
     font-size: 1.2em;
   }
@@ -139,5 +133,9 @@
     align-items: center;
     width: 25px;
     margin-left: 15%;
+  }
+
+  .imagemKits {
+    border: none;
   }
 }
