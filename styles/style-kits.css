@@ -124,6 +124,10 @@
   #kitsImportantes h1 {
     font-size: 1.2em;
   }
+
+  #mainKits {
+    margin: 0%;
+  }
 }
 
 @media (max-width: 380px) {
