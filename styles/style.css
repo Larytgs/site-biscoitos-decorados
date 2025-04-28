@@ -136,6 +136,7 @@ p {
   columns: 2;
   column-gap: 20px; /* Agora vai ficar mais junto */
   column-rule: 3px dotted var(--titulos); /* Pode diminuir a grossura da linha também */
+  margin: 0% 10%;
 }
 
 article section {
@@ -162,7 +163,12 @@ ul {
 #img1 {
   /* background: url(/imagens/imagemdefundorosa.jpg) center no-repeat fixed; */
   /* background-size: cover; Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador */
-  justify-content: space-between;
+  min-width: 300px;
+  max-width: 1000px;
+
+  display: flex; /*para deixar em linha*/
+  justify-content: center;
+  align-items: center; /*alinhado do centro*/
 }
 #img2 {
   background: url(/imagens/fundoazul3.jpg) center no-repeat fixed;
@@ -288,6 +294,7 @@ footer p a:hover {
   #colunas {
     display: flex; /*para deixar em linha*/
     flex-direction: column; /*deixar a coluna em baixo*/
+    margin: 0%;
   }
   .img {
     margin: 10px;
