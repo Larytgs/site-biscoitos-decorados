@@ -165,7 +165,7 @@ ul {
   justify-content: space-between;
 }
 #img2 {
-  background: url(/imagens/fundoazul.jpg) center no-repeat fixed;
+  background: url(/imagens/fundoazul3.jpg) center no-repeat fixed;
   background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador */
   min-width: 300px;
   max-width: 1000px;
@@ -319,7 +319,7 @@ footer p a:hover {
   }
 
   #img2 {
-    background: url(/imagens/fundoazul2.png) center no-repeat fixed;
+    background: url(/imagens/fundoazul4.jpg) center no-repeat fixed;
     background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador
 
     min-width: 300px;
