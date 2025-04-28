@@ -56,7 +56,7 @@ header p img {
 #titulo {
   color: var(--titulos);
   text-align: center;
-  font-family: var(--font01);
+  font-family: "Times New Roman", Times, serif;
   font-weight: 800;
   font-size: 1.9em;
   line-height: 1.5em; /*espaçamento entre as linhas*/
@@ -294,7 +294,7 @@ footer p a:hover {
   #colunas {
     display: flex; /*para deixar em linha*/
     flex-direction: column; /*deixar a coluna em baixo*/
-    margin: 0%;
+    margin: 0% 5%;
   }
   .img {
     margin: 10px;
