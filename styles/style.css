@@ -271,6 +271,16 @@ aside a:hover {
   box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.719);
 }
 
+.scroll-top {
+  position: fixed;
+  bottom: 25px;
+  right: 30px;
+  color: #8f0ccf;
+}
+#botao-top {
+  cursor: pointer;
+}
+
 footer p {
   background-color: var(--ContatosFooter);
   text-align: center;
