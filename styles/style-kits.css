@@ -72,13 +72,13 @@
   color: var(--cor01);
   text-align: left;
   line-height: 1.2em;
-  padding-right: 70px;
 }
 
 .imagemKits {
   min-width: 300px;
   max-width: 1000px;
   border: 3px dashed var(--titulos);
+  gap: 10%;
 
   justify-content: center;
   display: flex; /*para deixar em linha*/
@@ -124,7 +124,6 @@
 
   .h2Kits {
     font-size: 1.4em;
-    padding-right: 0%;
   }
 
   #mainKits {
@@ -148,5 +147,6 @@
 
   .imagemKits {
     border: none;
+    gap: 0%;
   }
 }
