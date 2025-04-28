@@ -319,8 +319,8 @@ footer p a:hover {
   }
 
   #img2 {
-    /* background: url(/imagens/biscoitosGengibre2.png) center no-repeat fixed;
-    background-size: cover; Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador */
+    background: url(/imagens/fundoazul2.png) center no-repeat fixed;
+    background-size: cover; /*Cover: ele adapta a imagem em todo, de acordo com o tamanho do navegador
 
     min-width: 300px;
     max-width: 1000px;
