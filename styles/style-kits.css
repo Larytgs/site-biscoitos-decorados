@@ -80,6 +80,7 @@
   max-width: 1000px;
   border: 3px dashed var(--titulos);
 
+  justify-content: center;
   display: flex; /*para deixar em linha*/
   align-items: center; /*alinhado do centro*/
 }
@@ -123,6 +124,7 @@
 
   .h2Kits {
     font-size: 1.4em;
+    padding-right: 0%;
   }
 
   #mainKits {
