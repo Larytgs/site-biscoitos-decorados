@@ -15,7 +15,7 @@
 }
 
 :root {
-  --fundoMain: #5c9dda69;
+  --fundoMain: #4f96d849;
   --titulos: #8f0ccf;
   --textos: #000000;
   --destaques: #5c9dda69;
@@ -27,7 +27,8 @@
 
 html,
 body {
-  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
 }
 
 body {
@@ -80,6 +81,15 @@ header p img {
   padding: 11px;
   min-width: 300px;
   max-width: 1000px;
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1; /* Faz o main ocupar o espaço disponível */
 }
 
 main article {
