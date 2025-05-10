@@ -75,14 +75,39 @@
 }
 
 .imagemKits {
+  position: relative;
   min-width: 300px;
   max-width: 1000px;
-  border: 3px dashed var(--titulos);
   gap: 10%;
 
   justify-content: center;
   display: flex; /*para deixar em linha*/
   align-items: center; /*alinhado do centro*/
+}
+/* Pseudo-elemento para a primeira cor da borda */
+.imagemKits::before,
+.imagemKits::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px dashed;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+/* Primeira cor (ex: roxo) */
+.imagemKits::before {
+  border-color: purple;
+}
+/* Segunda cor (ex: ciano), levemente deslocada */
+.imagemKits::after {
+  border-color: cyan;
+  transform: translate(
+    2px,
+    2px
+  ); /* leve deslocamento para criar efeito de cor dupla */
 }
 
 .ulKits {
