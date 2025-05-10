@@ -18,7 +18,7 @@
   --fundoMain: #4f96d849;
   --titulos: #8f0ccf;
   --textos: #000000;
-  --destaques: #5c9dda69;
+  --destaques: cyan;
   --ContatosFooter: #8a19d0d8;
 
   --font01: "destaque1";
@@ -226,8 +226,10 @@ ul {
 
 a#linkit,
 #linkFAQ {
-  text-decoration: overline underline;
-  color: var(--titulos);
+  /*text-decoration: overline underline; */
+  text-decoration: none;
+  text-shadow: 3px 2px 2px black;
+  color: var(--destaques);
   font-weight: 800;
 }
 a#linkit:hover {
