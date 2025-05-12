@@ -148,6 +148,9 @@ p {
   column-rule: 3px dotted var(--titulos); /* Pode diminuir a grossura da linha também */
   margin: 0% 10%;
 }
+.espaçolateral {
+  padding-right: 10%; /*espaços para os ingredientes dos sabores*/
+}
 
 article section {
   margin: 10px;
@@ -238,8 +241,15 @@ a#linkit:hover {
 a#linkFAQ:hover {
   text-decoration: underline;
 }
-.espaçolateral {
-  padding-right: 10%; /*espaços para os ingredientes dos sabores*/
+a#linkFAQ::after {
+  content: "←";
+  margin-left: 8px; /* Espaço entre o link e a seta */
+  font-size: 1em;
+}
+a#linkFAQ::before {
+  content: "→";
+  margin-right: 8px; /* Espaço entre o link e a seta */
+  font-size: 1em;
 }
 
 aside {
