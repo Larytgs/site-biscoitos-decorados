@@ -228,8 +228,8 @@ a#linkit,
 #linkFAQ {
   /*text-decoration: overline underline; */
   text-decoration: none;
-  text-shadow: 2px 2px 2px black;
-  color: var(--destaques);
+  text-shadow: 1px 1px black;
+  color: var(--ContatosFooter);
   font-weight: 800;
 }
 a#linkit:hover {
