@@ -330,13 +330,16 @@ footer p a:hover {
   }
 
   .espaçolateral {
-    padding-right: 10%; /*espaços para os ingredientes dos sabores*/
+    padding-right: 0%; /*espaços para os ingredientes dos sabores*/
   }
   #colunas {
     display: grid; /*para deixar um em cima do outro e no meio*/
+    grid-template-columns: 1fr; /* força 1 coluna apenas */
+    justify-items: center; /* centraliza os filhos horizontalmente */
     padding: 0%;
   }
   #colunas > div {
+    width: 100%;
     min-width: 300px;
   }
   .img {
