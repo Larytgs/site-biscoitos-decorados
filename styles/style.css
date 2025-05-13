@@ -150,7 +150,6 @@ p {
   margin: 0 auto; /* centraliza o bloco na página */
   padding: 20px;
   flex-wrap: wrap; /* quebra se for tela pequena */
-  border: 1px solid black; /* para você continuar visualizando */
   border-radius: 10px;
 }
 #colunas > div {
