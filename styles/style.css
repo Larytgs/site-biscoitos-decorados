@@ -334,6 +334,7 @@ footer p a:hover {
   }
   #colunas {
     display: grid; /*para deixar um em cima do outro e no meio*/
+    padding: 0%;
   }
   #colunas > div {
     min-width: 300px;
