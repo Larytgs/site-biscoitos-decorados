@@ -143,10 +143,19 @@ p {
 }
 
 #colunas {
-  columns: 2;
-  column-gap: 20px; /* Agora vai ficar mais junto */
-  column-rule: 3px dotted var(--titulos); /* Pode diminuir a grossura da linha também */
-  margin: 0% 10%;
+  display: flex;
+  justify-content: center; /* centraliza as colunas */
+  gap: 20px;
+  max-width: 1000px; /* controla a largura máxima */
+  margin: 0 auto; /* centraliza o bloco na página */
+  padding: 20px;
+  flex-wrap: wrap; /* quebra se for tela pequena */
+  border: 1px solid black; /* para você continuar visualizando */
+  border-radius: 10px;
+}
+#colunas > div {
+  flex: 1 1 30%; /* cada div ocupa até 30% do espaço, ajustável */
+  max-width: 300px;
 }
 .espaçolateral {
   padding-right: 10%; /*espaços para os ingredientes dos sabores*/
@@ -324,9 +333,10 @@ footer p a:hover {
     padding-right: 10%; /*espaços para os ingredientes dos sabores*/
   }
   #colunas {
-    display: flex; /*para deixar em linha*/
-    flex-direction: column; /*deixar a coluna em baixo*/
-    margin: 0% 5%;
+    display: grid; /*para deixar um em cima do outro e no meio*/
+  }
+  #colunas > div {
+    min-width: 300px;
   }
   .img {
     margin: 10px;
