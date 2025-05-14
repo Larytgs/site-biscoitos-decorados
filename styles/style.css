@@ -141,6 +141,9 @@ p {
 #destaque {
   color: var(--titulos);
 }
+li {
+  text-indent: 0;
+}
 
 #colunas {
   display: flex;
