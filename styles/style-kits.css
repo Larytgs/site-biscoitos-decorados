@@ -126,6 +126,20 @@
   font-weight: 800;
 }
 
+.instagram-container {
+  min-width: 350px; /* largura menor para o embed */
+  max-width: 1000px;
+  margin: 0%; /* centraliza horizontalmente e dá espaçamento vertical */
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+}
+.instagram-container {
+  min-width: 300px;
+  max-width: 900px;
+  width: 100%;
+}
+
 @media (max-width: 750px) {
   #tituloKitsh1 {
     font-size: 1.8em;
