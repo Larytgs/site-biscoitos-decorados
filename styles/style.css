@@ -263,6 +263,22 @@ a#linkFAQ::before {
   font-size: 1em;
 }
 
+.foto-container {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap; /* adapta em telas menores */
+  margin: 20px auto;
+  max-width: 1100px;
+}
+.foto-container img {
+  width: calc(22% - 10px); /* 4 por linha, considerando o gap */
+  aspect-ratio: 3 / 4; /* largura:altura, ajustável conforme sua necessidade */
+  border: 2px solid #000;
+  border-radius: 8px;
+  object-fit: cover; /* ajusta o conteúdo dentro da área */
+}
+
 aside {
   margin-bottom: 25px;
 }

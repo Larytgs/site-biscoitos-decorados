@@ -151,8 +151,8 @@
   max-width: 1100px;
 }
 .foto-container img {
-  width: 200px;
-  height: 300px;
+  width: 160px;
+  height: 250px;
   border: 2px solid #000;
   border-radius: 8px;
   object-fit: cover; /* ajusta o conteúdo dentro da área */
