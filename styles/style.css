@@ -178,7 +178,6 @@ li {
 
 .colunas {
   display: flex;
-  columns: 3;
   justify-content: center; /* centraliza as colunas */
   gap: 20px;
   margin: 0 auto; /* centraliza o bloco na página */
@@ -395,13 +394,13 @@ footer p a:hover {
   .espaçolateral {
     padding-right: 0%; /*espaços para os ingredientes dos sabores*/
   }
-  #colunas {
-    display: grid; /*para deixar um em cima do outro e no meio*/
+  .colunas {
+    display: flex; /*para deixar um em cima do outro e no meio*/
     grid-template-columns: 1fr; /* força 1 coluna apenas */
     justify-items: center; /* centraliza os filhos horizontalmente */
     padding: 0%;
   }
-  #colunas > div {
+  .colunas > div {
     width: 100%;
     min-width: 300px;
   }
