@@ -304,7 +304,7 @@ a#linkFAQ::before {
 }
 .foto-container img {
   width: calc(22% - 10px); /* 4 por linha, considerando o gap */
-  aspect-ratio: 2.8 / 4; /* largura:altura, ajustável conforme sua necessidade */
+  aspect-ratio: 3 / 4; /* largura:altura, ajustável conforme sua necessidade */
   border: 2px solid #000;
   border-radius: 8px;
   object-fit: cover; /* ajusta o conteúdo dentro da área */
