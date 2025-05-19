@@ -120,6 +120,21 @@
   list-style-position: inside;
   list-style-type: "\2714\00a0\00a0";
 }
+.ulKits h4 {
+  padding-top: 10px;
+}
+.ul2Kits {
+  padding-left: 8px;
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  list-style-position: inside;
+}
+.ul2Kits li {
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
 #kitsImportantes h1 {
   text-align: left;
   font-size: 1.6em;
