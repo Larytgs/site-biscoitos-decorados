@@ -5,6 +5,7 @@ const scrollToTop = () => {
   });
 };
 
+// Entrada do site
 window.addEventListener("load", () => {
   const fill = document.querySelector(".progress-fill");
   const content = document.getElementById("content");
