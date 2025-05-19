@@ -176,19 +176,19 @@ li {
   text-indent: 0;
 }
 
-#colunas {
+.colunas {
   display: flex;
+  columns: 3;
   justify-content: center; /* centraliza as colunas */
   gap: 20px;
-  max-width: 1000px; /* controla a largura máxima */
   margin: 0 auto; /* centraliza o bloco na página */
   padding: 20px;
   flex-wrap: wrap; /* quebra se for tela pequena */
   border-radius: 10px;
 }
-#colunas > div {
-  flex: 1 1 30%; /* cada div ocupa até 30% do espaço, ajustável */
-  max-width: 300px;
+.colunas > div {
+  flex: 0 0 30%; /* cada div ocupa até 30% do espaço, ajustável */
+  max-width: 30%;
 }
 .espaçolateral {
   padding-right: 10%; /*espaços para os ingredientes dos sabores*/
