@@ -207,6 +207,20 @@ ul {
   list-style-position: inside;
 }
 
+.ulKits h4 {
+  padding-top: 10px;
+}
+.ul2Kits {
+  padding-left: 8px;
+  text-align: left;
+  line-height: 1.4em;
+  list-style-position: inside;
+}
+.ul2Kits li {
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
 .imagem {
   padding-left: 15px;
 
